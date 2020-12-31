@@ -1,0 +1,10 @@
+
+/////////////////////////////////////////////////////////////////////
+// Mapper 66
+STATIC void NES_mapper66_Reset();
+STATIC void NES_mapper66_MemoryWriteSaveRAM(u32 addr, u8 data);
+STATIC void NES_mapper66_MemoryWrite(u32 addr, u8 data);
+
+STATIC void NES_mapper66_Init();
+/////////////////////////////////////////////////////////////////////
+

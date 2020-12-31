@@ -1,0 +1,10 @@
+
+/////////////////////////////////////////////////////////////////////
+// Mapper 41
+STATIC void NES_mapper41_Reset();
+STATIC void NES_mapper41_MemoryWriteSaveRAM(u32 addr, u8 data);
+STATIC void NES_mapper41_MemoryWrite(u32 addr, u8 data);
+
+STATIC void NES_mapper41_Init();
+/////////////////////////////////////////////////////////////////////
+

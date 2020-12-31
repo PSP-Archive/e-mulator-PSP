@@ -1,0 +1,44 @@
+＜謝辞＞
+(1) フォントとしてナガ10を使わせて頂いています。
+(2) PSP用ソフトの様々なソースを参考にしています。
+    色々参考にしすぎて何を参考にしたか覚えてません (--;
+    ソフトを公開してくださった全ての方々に感謝！
+(3) Ruka氏にはCPUコアを高速化して頂きました。感謝！
+(4) y氏作uoSnes9x for PSPのGPU使用方法を参考にしました。感謝！
+(5) 各種資料を参考にしました。資料を作成された方々に感謝！
+(6) アイコンを作成してくださった pochiさんに感謝！
+    http://pochistyle.pspwire.net/
+
+＜参考資料＞
+(1) Charles MacDonald 氏 (http://cgfm2.emuviews.com/)
+    sgxtech.txt
+    pcetech.txt
+    SuperGrafx実装では特にsgxtech.txtが役立ちました。
+
+(2) PC2E Ki氏 (http://www.geocities.jp/team_zero_three/PC2E/index.html)
+    エミュレーション結果が正しいか確認するために利用
+    またPC2Eソースコードを参考にして各種実装を行いました。
+    (A) SATB DMAのバグ修正に役立ちました。
+    (B) スプライトプライオリティ修正に役立ちました。
+
+(3) HuGoソースコード
+    (A) SATB DMAのバグ修正に役立ちました。
+    (B) スプライトプライオリティ修正に役立ちました。
+
+(4) fpce/xpce/HuEのソース
+    ベースになった素晴らしいPCEngine Emulatorです。
+    ここから始まりました!
+
+(5) YAME 0.38
+    エミュレーション結果が正しいか確認するために利用
+
+(6) PCEP 0.70
+    CDROMエミュレーションに関する実装を使わせて頂きました。
+
+(7) その他のPCEngine EmulatorとSource
+
+(8) Cygne / oSwan / pSwan / wstech24.txt / wstech14j.txt
+    その他のWonderSwan Emulator多数。
+
+(9) WonderWitchのマニュアル。
+

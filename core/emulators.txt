@@ -1,0 +1,10 @@
+core          | base
+--------------+---------------------
+PC Engine     | xpce Tuned by e
+NES           | NesterJ for PSP(by Ruka)
+SMS           | SMS Plus/SDL
+Neogeo Pocket | neopop
+Gameboy       | TGB Dual(RIN by mirakichi)
+Wonderswan    | OSwan Tuned by e 
+Lynx          | Plynx
+

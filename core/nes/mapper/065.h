@@ -1,0 +1,10 @@
+
+/////////////////////////////////////////////////////////////////////
+// Mapper 65
+STATIC void NES_mapper65_Reset();
+STATIC void NES_mapper65_MemoryWrite(u32 addr, u8 data);
+STATIC void NES_mapper65_HSync(u32 scanline);
+
+STATIC void NES_mapper65_Init();
+/////////////////////////////////////////////////////////////////////
+

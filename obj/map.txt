@@ -1,0 +1,2973 @@
+Archive member included because of file (symbol)
+
+libs/libunzip.a(zlibInterface.o)
+                              obj/file_io.o (Unzip_execExtract)
+libs/libunzip.a(unzip.o)      libs/libunzip.a(zlibInterface.o) (unzCloseCurrentFile)
+libs/libunzip.a(zlibFileMemory.o)
+                              libs/libunzip.a(unzip.o) (___strcmp)
+libs/libunzip.a(ioapi.o)      libs/libunzip.a(unzip.o) (fill_fopen_filefunc)
+libs/libz.a(crc32.o)          libs/libunzip.a(unzip.o) (crc32)
+libs/libz.a(inflate.o)        libs/libunzip.a(unzip.o) (inflateInit2_)
+libs/libz.a(inftrees.o)       libs/libz.a(inflate.o) (inflate_table)
+libs/libz.a(inffast.o)        libs/libz.a(inflate.o) (inflate_fast)
+libs/libz.a(adler32.o)        libs/libz.a(inflate.o) (adler32)
+libs/libz.a(zutil.o)          libs/libz.a(inflate.o) (zcalloc)
+obj/liblynx.a(System.o)       obj/main.o (LNX_Setup)
+obj/liblynx.a(C65c02.o)       obj/liblynx.a(System.o) (C65C02_IRQ_Check)
+obj/libsms.a(sms.o)           obj/main.o (SMS_Setup)
+obj/libsms.a(render.o)        obj/libsms.a(sms.o) (render_line)
+obj/libsms.a(vdp.o)           obj/libsms.a(sms.o) (vdp_data_w)
+obj/libsms.a(system.o)        obj/libsms.a(sms.o) (snd)
+obj/libsms.a(sn76496.o)       obj/libsms.a(sms.o) (SN76496Write)
+obj/libsms.a(emu2413.o)       obj/libsms.a(system.o) (OPLL_new)
+obj/libsms.a(z80.o)           obj/libsms.a(system.o) (Z80_Context)
+obj/libnes.a(nes.o)           obj/main.o (NES_Setup)
+obj/libnes.a(nes_config.o)    obj/libnes.a(nes.o) (NES_Config_SetDefaults_All)
+obj/libnes.a(nes_mapper.o)    obj/libnes.a(nes.o) (pg_NESmapper)
+obj/libnes.a(nes_rom.o)       obj/libnes.a(nes.o) (pg_ROM)
+obj/libnes.a(snss.o)          obj/libnes.a(nes.o) (LoadSNSS)
+obj/libnes.a(nes_crc32.o)     obj/libnes.a(nes_rom.o) (CrcCalc)
+obj/libnes.a(libsnss.o)       obj/libnes.a(snss.o) (SNSS_GetNextBlockType)
+obj/libnes.a(nes6502.o)       obj/libnes.a(nes.o) (nes6502_execute)
+obj/libnes.a(nes_ppu.o)       obj/libnes.a(nes.o) (NES_PPU_reset)
+obj/libnes.a(nes_apu_wrapper.o)
+                              obj/libnes.a(nes.o) (g_APU)
+obj/libnes.a(nes_fme7.o)      obj/libnes.a(nes_apu_wrapper.o) (fme7_ext)
+obj/libnes.a(nes_mmc5.o)      obj/libnes.a(nes_apu_wrapper.o) (mmc5_ext)
+obj/libnes.a(nes_n106.o)      obj/libnes.a(nes_apu_wrapper.o) (n106_ext)
+obj/libnes.a(nes_vrc6.o)      obj/libnes.a(nes_apu_wrapper.o) (vrc6_ext)
+obj/libnes.a(nes_vrc7.o)      obj/libnes.a(nes_apu_wrapper.o) (vrc7_ext)
+obj/libnes.a(nes_fds.o)       obj/libnes.a(nes_apu_wrapper.o) (fds_nesp_ext)
+obj/libnes.a(nes_apu.o)       obj/libnes.a(nes_apu_wrapper.o) (ex_read)
+obj/libnes.a(nes_exsound.o)   obj/libnes.a(nes_mmc5.o) (LinearToLog)
+obj/libgbc.a(gb.o)            obj/main.o (GBC_Setup)
+obj/libgbc.a(lcd.o)           obj/libgbc.a(gb.o) (lcd_init)
+obj/libgbc.a(sgb.o)           obj/libgbc.a(gb.o) (bit_received)
+obj/libgbc.a(gbrom.o)         obj/libgbc.a(gb.o) (rom_load_rom)
+obj/libgbc.a(mbc.o)           obj/libgbc.a(gb.o) (gb_str)
+obj/libgbc.a(gb_apu.o)        obj/libgbc.a(gb.o) (gbc_snd_render)
+obj/libgbc.a(cheat.o)         obj/libgbc.a(gb.o) (cheat_create_cheat_map)
+obj/libgbc.a(cpu.o)           obj/libgbc.a(gb.o) (vram_bank)
+obj/libngp.a(neopop.o)        obj/main.o (NGP_Setup)
+obj/libngp.a(rom.o)           obj/libngp.a(neopop.o) (rom_hack)
+obj/libngp.a(sound.o)         obj/libngp.a(neopop.o) (sound_init)
+obj/libngp.a(interpret.o)     obj/libngp.a(neopop.o) (statusIFF)
+obj/libngp.a(Z80n.o)          obj/libngp.a(neopop.o) (ExecZ80withCycle)
+obj/libngp.a(Z80_interface.o)
+                              obj/libngp.a(Z80n.o) (WrZ80)
+obj/libngp.a(bios.o)          obj/libngp.a(neopop.o) (ngp_reset)
+obj/libngp.a(biosHLE.o)       obj/libngp.a(interpret.o) (iBIOSHLE)
+obj/libngp.a(dma.o)           obj/libngp.a(neopop.o) (DMA_update)
+obj/libngp.a(flash.o)         obj/libngp.a(rom.o) (flash_read)
+obj/libngp.a(interrupt.o)     obj/libngp.a(neopop.o) (h_int)
+obj/libngp.a(mem.o)           obj/libngp.a(interpret.o) (debug_abort_memory)
+obj/libngp.a(gfx_scanline_colour.o)
+                              obj/libngp.a(interrupt.o) (gfx_draw_scanline_colour)
+obj/libngp.a(gfx_scanline_mono.o)
+                              obj/libngp.a(interrupt.o) (gfx_draw_scanline_mono)
+obj/libswan.a(ws.o)           obj/main.o (ws_set_colour_scheme)
+obj/libswan.a(nec.o)          obj/libswan.a(ws.o) (nec_reset)
+obj/libpce.a(pce.o)           obj/main.o (PCE_Setup)
+obj/libpce.a(cd.o)            obj/libpce.a(pce.o) (CD_write)
+obj/libpce.a(cd_dat.o)        obj/libpce.a(cd.o) (binbcd)
+obj/libpce.a(m6502.o)         obj/libpce.a(pce.o) (Run6502)
+
+Allocating common symbols
+Common symbol       size              file
+
+info                0x24              obj/libgbc.a(gbrom.o)
+gAudioBuffer        0x1588            obj/liblynx.a(System.o)
+_ff72               0x1               obj/libgbc.a(cpu.o)
+cd_read_buffer      0x4               obj/libpce.a(cd.o)
+snd_que_count       0x4               obj/libgbc.a(gb_apu.o)
+first_page          0x4               obj/libgbc.a(gbrom.o)
+gpr                 0x10              obj/libngp.a(interpret.o)
+gb2z80              0x100             obj/libgbc.a(cpu.o)
+dat                 0x4               obj/libgbc.a(gbrom.o)
+hook_ext            0x4               obj/libgbc.a(gb.o)
+ex_gprMapW          0x4               obj/libngp.a(interpret.o)
+cg_regs             0xd               obj/libgbc.a(gb.o)
+oam                 0xa0              obj/libgbc.a(cpu.o)
+pIO                 0x4               obj/libpce.a(pce.o)
+opll                0x4               obj/libsms.a(system.o)
+now_win_line        0x4               obj/libgbc.a(lcd.o)
+___zlibAllocBuffPointer
+                    0x4               libs/libunzip.a(zlibFileMemory.o)
+b_dma_first         0x4               obj/libgbc.a(cpu.o)
+linebuf             0x4               obj/libsms.a(render.o)
+pCache              0x4               obj/libpce.a(pce.o)
+dma_dest_bank       0x4               obj/libgbc.a(cpu.o)
+now_sensor_x        0x4               obj/libgbc.a(gb.o)
+g_nes_db            0x17700           obj/libnes.a(nes_rom.o)
+pACD                0x4               obj/libpce.a(pce.o)
+spare_oam           0x18              obj/libgbc.a(cpu.o)
+dacBufferL          0x40000           obj/libngp.a(sound.o)
+cart                0x8               obj/libsms.a(system.o)
+z802gb              0x100             obj/libgbc.a(cpu.o)
+timer0              0x4               obj/libngp.a(interrupt.o)
+c_regs_I            0x1               obj/libgbc.a(cpu.o)
+total_clock         0x4               obj/libgbc.a(cpu.o)
+mikie               0x100             obj/liblynx.a(System.o)
+_ff73               0x1               obj/libgbc.a(cpu.o)
+mute                0x4               obj/libngp.a(sound.o)
+rom_header          0x4               obj/libngp.a(rom.o)
+rom                 0x118             obj/libngp.a(rom.o)
+TimerCount          0x4               obj/libpce.a(pce.o)
+malloc_mem          0x1080000         obj/callmain.o
+sys_clock           0x4               obj/libgbc.a(cpu.o)
+org_gbtype          0x4               obj/libgbc.a(gbrom.o)
+now_gb_mode         0x4               obj/libgbc.a(gb.o)
+bitmap              0x98              obj/libsms.a(system.o)
+timer2              0x4               obj/libngp.a(interrupt.o)
+halSnd              0x4040            obj/common.o
+gb_str              0x3c              obj/libgbc.a(mbc.o)
+mMemoryHandlers     0x80000           obj/liblynx.a(System.o)
+sms                 0xc00c            obj/libsms.a(sms.o)
+ng_map              0x400             obj/libngp.a(interpret.o)
+sn                  0x2e0             obj/libsms.a(sn76496.o)
+pce_cd_sectoraddress
+                    0x3               obj/libpce.a(cd.o)
+emu_handler         0x1000            obj/common.o
+c_regs_SP           0x2               obj/libgbc.a(cpu.o)
+ex_regCodeMapW      0x4               obj/libngp.a(interpret.o)
+input               0xc               obj/libsms.a(system.o)
+vp_hstart           0x4               obj/libsms.a(render.o)
+pce_cd_curcmd       0x1               obj/libpce.a(cd.o)
+pce_cd_temp_stop    0x4               obj/libpce.a(cd.o)
+PCE_WRAM            0x4               obj/libpce.a(pce.o)
+dacBufferRead       0x4               obj/libngp.a(sound.o)
+ztbls               0x4c              obj/libgbc.a(lcd.o)
+sgb_palette_memory  0x1000            obj/libgbc.a(sgb.o)
+ym2413              0x40              obj/libsms.a(system.o)
+populus             0x1               obj/libpce.a(pce.o)
+layer_enable        0xc               obj/libgbc.a(lcd.o)
+dma_src_bank        0x4               obj/libgbc.a(cpu.o)
+Country             0x4               obj/libpce.a(pce.o)
+ex_regCodeMapB      0x4               obj/libngp.a(interpret.o)
+stack               0x80              obj/libgbc.a(cpu.o)
+ex_regCodeMapL      0x4               obj/libngp.a(interpret.o)
+tmp_clocks          0x4               obj/libgbc.a(cpu.o)
+re_render           0x4               obj/libgbc.a(gb.o)
+cpu_readmap         0x20              obj/libsms.a(z80.o)
+ROM_size            0x4               obj/libpce.a(pce.o)
+now_frame           0x4               obj/libgbc.a(gb.o)
+vp_hend             0x4               obj/libsms.a(render.o)
+CD_track            0x12400           obj/libpce.a(cd.o)
+___zlibAllocBuff    0x10000           libs/libunzip.a(zlibFileMemory.o)
+cfb_scanline        0x4               obj/libngp.a(interrupt.o)
+vdp                 0x406c            obj/libsms.a(vdp.o)
+g_apu_t             0x1818c           obj/libnes.a(nes_apu.o)
+sgb_buffer          0x70              obj/libgbc.a(sgb.o)
+sgb_mode            0x4               obj/libgbc.a(gbrom.o)
+g_PPU               0x94d4            obj/libnes.a(nes_ppu.o)
+n106_sound          0x56c             obj/libnes.a(nes_n106.o)
+b8                  0x2e0             obj/libngp.a(neopop.o)
+snd_stat_cpy        0xec              obj/libgbc.a(gb_apu.o)
+eConf               0x20b             obj/main.o
+sgb_border          0x800             obj/libgbc.a(sgb.o)
+sgb_palette         0x100             obj/libgbc.a(sgb.o)
+snd_stat_tmp        0xec              obj/libgbc.a(gb_apu.o)
+PCE_ROMMap          0x400             obj/libpce.a(pce.o)
+_ff75               0x1               obj/libgbc.a(cpu.o)
+PCE_RAM             0x4               obj/libpce.a(pce.o)
+PCE_Page            0x20              obj/libpce.a(pce.o)
+snd                 0x24              obj/libsms.a(system.o)
+last_int            0x4               obj/libgbc.a(cpu.o)
+rp_data             0x1               obj/libgbc.a(cpu.o)
+ext_mem             0x10              obj/libgbc.a(cpu.o)
+dacBufferCount      0x4               obj/libngp.a(sound.o)
+FilerMsg            0x100             obj/filer.o
+zbuffer             0x100             obj/libngp.a(interrupt.o)
+pad_state           0x4               obj/libgbc.a(gb.o)
+b_trace             0x4               obj/libgbc.a(cpu.o)
+cd_fade             0x1               obj/libpce.a(cd.o)
+pixel               0x40              obj/libsms.a(render.o)
+cpu_writemap        0x20              obj/libsms.a(z80.o)
+snd_stat            0xec              obj/libgbc.a(gb_apu.o)
+sgb_borderchar      0x2000            obj/libgbc.a(sgb.o)
+ex_gprMapB          0x4               obj/libngp.a(interpret.o)
+use_gba             0x4               obj/libgbc.a(gb.o)
+ram_bank            0x4               obj/libgbc.a(cpu.o)
+sram                0x4               obj/libgbc.a(gbrom.o)
+skip_buf            0x4               obj/libgbc.a(gb.o)
+pce_cd_dirinfo      0x4               obj/libpce.a(cd.o)
+BaseClock           0x4               obj/libpce.a(pce.o)
+div_clock           0x4               obj/libgbc.a(cpu.o)
+vp_vstart           0x4               obj/libsms.a(render.o)
+vram_bank           0x4               obj/libgbc.a(cpu.o)
+dma_executing       0x4               obj/libgbc.a(cpu.o)
+cd_toc              0x800             obj/libpce.a(cd.o)
+sgb_screenbuffer    0x1040            obj/libgbc.a(sgb.o)
+_ff6c               0x1               obj/libgbc.a(cpu.o)
+mul                 0x4               obj/libgbc.a(lcd.o)
+internal_buffer     0x100             obj/libsms.a(render.o)
+c_regs_HL           0x2               obj/libgbc.a(cpu.o)
+cycles              0x1               obj/libngp.a(interpret.o)
+col_pal             0x80              obj/libgbc.a(lcd.o)
+snd_b_lowpass       0x4               obj/libgbc.a(gb_apu.o)
+sgb_ATF_list        0x3f48            obj/libgbc.a(sgb.o)
+speed_change        0x4               obj/libgbc.a(cpu.o)
+pc32                0x4               obj/libngp.a(interpret.o)
+cd_sectorcnt        0x1               obj/libpce.a(cd.o)
+snd_b_enable        0x10              obj/libgbc.a(gb_apu.o)
+_ff74               0x1               obj/libgbc.a(cpu.o)
+vrc6_sound          0x44              obj/libnes.a(nes_vrc6.o)
+g_SNSSObj           0xb9fc            obj/libnes.a(libsnss.o)
+now_sensor_y        0x4               obj/libgbc.a(gb.o)
+sgb_border_buffer   0x1c000           obj/libgbc.a(sgb.o)
+int_invoke_next     0x4               obj/libgbc.a(cpu.o)
+pCD                 0x4               obj/libpce.a(pce.o)
+snd_mem             0x100             obj/libgbc.a(gb_apu.o)
+sprite_count        0x4               obj/libgbc.a(lcd.o)
+rp_time             0x4               obj/libgbc.a(cpu.o)
+IPeriod             0x4               obj/libpce.a(pce.o)
+seg_prefix          0x1               obj/libswan.a(nec.o)
+dma_rest            0x4               obj/libgbc.a(cpu.o)
+cache               0x20000           obj/libsms.a(render.o)
+z80_ICount          0x4               obj/libsms.a(z80.o)
+c_regs_PC           0x2               obj/libgbc.a(cpu.o)
+tl9h                0x1c              obj/libngp.a(interpret.o)
+pce_cd_temp_play    0x4               obj/libpce.a(cd.o)
+snd_write_que       0x80000           obj/libgbc.a(gb_apu.o)
+cd_sector_buffer    0x2000            obj/libpce.a(cd.o)
+gdma_rest           0x4               obj/libgbc.a(cpu.o)
+buf                 0xb80             obj/libngp.a(neopop.o)
+pce_cd_cmdcnt       0x1               obj/libpce.a(cd.o)
+g_Pal               0x200             obj/libnes.a(nes.o)
+speed               0x4               obj/libgbc.a(cpu.o)
+lut                 0x10000           obj/libsms.a(render.o)
+g_NESConfig         0x20              obj/libnes.a(nes_config.o)
+is_vram_dirty       0x1               obj/libsms.a(render.o)
+b_loaded            0x4               obj/libgbc.a(gbrom.o)
+int_disable_next    0x4               obj/libgbc.a(cpu.o)
+snd_bef_clock       0x4               obj/libgbc.a(gb_apu.o)
+system_colour       0x4               obj/libngp.a(neopop.o)
+_c_regs             0xe               obj/libgbc.a(cpu.o)
+seri_occer          0x4               obj/libgbc.a(cpu.o)
+ram                 0x8000            obj/libgbc.a(cpu.o)
+g_regs              0x15              obj/libgbc.a(gb.o)
+halt                0x4               obj/libgbc.a(cpu.o)
+pce_cd_temp_dirinfo
+                    0x4               obj/libpce.a(cd.o)
+sgb_ATF             0x168             obj/libgbc.a(sgb.o)
+c_regs_AF           0x2               obj/libgbc.a(cpu.o)
+vram                0x4000            obj/libgbc.a(cpu.o)
+FileName            0x200             obj/filer.o
+dacBufferWrite      0x4               obj/libngp.a(sound.o)
+c_regs_BC           0x2               obj/libgbc.a(cpu.o)
+TimerPeriod         0x4               obj/libpce.a(pce.o)
+n_mpal16            0x4               obj/libgbc.a(lcd.o)
+ROM                 0x4               obj/libpce.a(pce.o)
+gprBank             0x40              obj/libngp.a(interpret.o)
+dma_dest            0x4               obj/libgbc.a(cpu.o)
+hook_proc           0x8               obj/libgbc.a(gb.o)
+noiseChip           0x6c              obj/libngp.a(sound.o)
+mir_pat             0x20000           obj/libngp.a(neopop.o)
+mRam_Data           0x10000           obj/liblynx.a(System.o)
+sr                  0x2               obj/libngp.a(interpret.o)
+nCheats             0x4               obj/libgbc.a(cheat.o)
+fb_format           0x2c              obj/liblynx.a(System.o)
+ex_gprMapL          0x4               obj/libngp.a(interpret.o)
+FDS_SOUND           0x1ec             obj/libnes.a(nes_fds.o)
+c_regs_DE           0x2               obj/libgbc.a(cpu.o)
+skip                0x4               obj/libgbc.a(gb.o)
+rest_clock          0x4               obj/libgbc.a(cpu.o)
+pce_cd_read_datacnt
+                    0x4               obj/libpce.a(cd.o)
+render_bg           0x4               obj/libsms.a(render.o)
+vram_dirty          0x200             obj/libsms.a(render.o)
+vp_vend             0x4               obj/libsms.a(render.o)
+Z80_regs            0x34              obj/libngp.a(Z80_interface.o)
+dma_src             0x4               obj/libgbc.a(cpu.o)
+sndbuffer           0x14000           obj/hal_sound.o
+pce_cd_sectoraddy   0x4               obj/libpce.a(cd.o)
+toneChip            0x6c              obj/libngp.a(sound.o)
+map_null            0x10000           obj/libngp.a(interpret.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .text set to 0x8900000
+LOAD obj/callmain.o
+LOAD obj/malloc.o
+LOAD obj/stdlib.o
+LOAD obj/string.o
+LOAD obj/startup.o
+LOAD obj/filer.o
+LOAD obj/font.o
+LOAD obj/main.o
+LOAD obj/mp3.o
+LOAD obj/pg.o
+LOAD obj/psp_main.o
+LOAD obj/text.o
+LOAD obj/common.o
+LOAD obj/cstring.o
+LOAD obj/file_io.o
+LOAD obj/zlibpsp.o
+LOAD obj/hal.o
+LOAD obj/hal_cd.o
+LOAD obj/hal_file.o
+LOAD obj/hal_sound.o
+LOAD libs/libmad.a
+LOAD libs/libunzip.a
+LOAD libs/libz.a
+LOAD obj/liblynx.a
+LOAD obj/libsms.a
+LOAD obj/libnes.a
+LOAD obj/libgbc.a
+LOAD obj/libngp.a
+LOAD obj/libswan.a
+LOAD obj/libpce.a
+                0x0000000000000000                _DYNAMIC_LINK = 0x0
+                0x0000000000100000                . = 0x100000
+
+.interp
+ *(.interp)
+
+.reginfo        0x0000000000100000       0x18
+ *(.reginfo)
+ .reginfo       0x0000000000100000       0x18 obj/callmain.o
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.dyn
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.text           0x0000000008900000    0xcc408
+                0x0000000008900000                _ftext = .
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000008900000       0xb0 obj/callmain.o
+                0x0000000008900000                xmain
+ .text          0x00000000089000b0     0x1dbc obj/malloc.o
+                0x0000000008900b5c                mspace_independent_comalloc
+                0x0000000008900b14                mspace_memalign
+                0x0000000008900ca4                malloc
+                0x0000000008900a5c                mspace_calloc
+                0x0000000008900d6c                calloc
+                0x00000000089003f4                mspace_free
+                0x0000000008900ba8                mspace_mallopt
+                0x0000000008900b30                mspace_independent_calloc
+                0x00000000089009c0                create_mspace_with_base
+                0x0000000008900dc4                realloc
+                0x00000000089000b0                destroy_mspace
+                0x0000000008900ae4                mspace_realloc
+                0x00000000089000d8                mspace_malloc
+                0x0000000008900b7c                mspace_trim
+                0x0000000008900e5c                memalign
+                0x0000000008900b98                mspace_malloc_stats
+                0x0000000008900bc4                init_malloc
+                0x0000000008900970                create_mspace
+                0x0000000008900ba0                mspace_footprint
+                0x0000000008900d0c                free
+ .text          0x0000000008901e6c      0x170 obj/stdlib.o
+                0x0000000008901e6c                atoh
+                0x0000000008901ef4                max
+                0x0000000008901f0c                min
+                0x0000000008901f24                atoi
+                0x0000000008901ee4                abs
+ .text          0x0000000008901fdc       0x70 obj/string.o
+                0x0000000008902014                memmove
+                0x0000000008901ff8                memcpy
+                0x0000000008901fdc                memset
+                0x0000000008902030                strlen
+ .text          0x000000000890204c       0x7c obj/startup.o
+                0x000000000890204c                _start
+ .text.stub     0x00000000089020c8      0x4e8 obj/startup.o
+                0x0000000008902120                sceDisplayWaitVblankCB
+                0x00000000089024d8                sceKernelWakeupThread
+                0x00000000089023c0                sceKernelLibcClock
+                0x0000000008902540                sceGeDrawSync
+                0x0000000008902528                sceGeListDeQueue
+                0x00000000089020c8                sceDisplaySetMode
+                0x00000000089024c0                sceKernelDelayThread
+                0x00000000089022b0                scePowerGetResumeCount
+                0x00000000089021a8                sceIoOpen
+                0x0000000008902300                scePowerGetBusClockFrequencyFloat
+                0x0000000008902268                scePowerGetBatteryElec
+                0x00000000089020d8                sceDisplayGetFramePerSec
+                0x00000000089021b8                sceIoMkdir
+                0x0000000008902438                sceKernelExitThread
+                0x0000000008902368                sceKernelUtilsMd5BlockInit
+                0x0000000008902510                sceGeRestoreContext
+                0x0000000008902318                sceAudioOutputPanned
+                0x0000000008902168                sceCtrlPeekBufferPositive
+                0x0000000008902578                sceKernelEnableSubIntr
+                0x0000000008902370                sceKernelUtilsMd5BlockUpdate
+                0x0000000008902360                sceKernelUtilsMd5Digest
+                0x0000000008902460                sceKernelClearEventFlag
+                0x0000000008902260                scePowerGetBatteryTemp
+                0x00000000089020d0                sceDisplayGetMode
+                0x00000000089020e8                sceDisplaySetResumeMode
+                0x0000000008902118                sceDisplayWaitVblank
+                0x00000000089025a8                sceKernelRegisterUserSpaceIntrStack
+                0x00000000089022d8                scePowerGetCpuClockFrequency
+                0x0000000008902538                sceGeListSync
+                0x0000000008902580                sceKernelDisableSubIntr
+                0x00000000089024e8                sceGeEdramGetAddr
+                0x0000000008902508                sceGeSaveContext
+                0x0000000008902518                sceGeListEnQueue
+                0x00000000089023b8                sceKernelSetGPO
+                0x00000000089022d0                scePowerSetBusClockFrequency
+                0x0000000008902308                scePowerSetClockFrequency
+                0x0000000008902560                sceGeUnsetCallback
+                0x0000000008902408                sceKernelIcacheProbe
+                0x0000000008902490                sceKernelGetThreadId
+                0x0000000008902278                scePowerLock
+                0x0000000008902200                scePowerTick
+                0x00000000089022e0                scePowerGetBusClockFrequency
+                0x00000000089021f8                sceKernelRegisterExitCallback
+                0x00000000089022c8                scePowerSetCpuClockFrequency
+                0x0000000008902430                sceKernelStartThread
+                0x00000000089021d0                sceIoRename
+                0x00000000089022a8                scePowerEncodeUBattery
+                0x0000000008902128                sceDisplayWaitVblankStart
+                0x00000000089021d8                sceKernelPowerLock
+                0x0000000008902328                sceAudioChReserve
+                0x0000000008902558                sceGeSetCallback
+                0x0000000008902478                sceKernelCreateCallback
+                0x0000000008902448                sceKernelCreateEventFlag
+                0x00000000089022f0                scePowerGetBusClockFrequencyInt
+                0x0000000008902388                sceKernelUtilsSha1BlockInit
+                0x0000000008902548                sceGeBreak
+                0x0000000008902148                sceDisplaySetVblankCallback
+                0x00000000089023e0                sceKernelDcacheWritebackInvalidateAll
+                0x0000000008902330                sceAudioChRelease
+                0x0000000008902440                sceKernelSleepThread
+                0x0000000008902220                scePowerBatteryUpdateInfo
+                0x0000000008902358                sceKernelDcacheInvalidateRange
+                0x0000000008902228                scePowerIsPowerOnline
+                0x0000000008902190                sceIoWrite
+                0x00000000089022e8                scePowerGetCpuClockFrequencyInt
+                0x0000000008902520                sceGeListEnQueueHead
+                0x0000000008902458                sceKernelSetEventFlag
+                0x0000000008902310                sceAudioOutputBlocking
+                0x00000000089024c8                sceKernelSuspendThread
+                0x00000000089023d0                sceKernelLibcGettimeofday
+                0x0000000008902138                sceDisplayGetCurrentHcount
+                0x00000000089023b0                sceKernelGetGPI
+                0x00000000089023a0                sceKernelUtilsMt19937Init
+                0x0000000008902598                sceKernelIsSubInterruptOccurred
+                0x0000000008902348                sceAudioChangeChannelConfig
+                0x0000000008902410                sceKernelIcacheReadTag
+                0x00000000089024b0                sceKernelPollSema
+                0x0000000008902568                sceKernelRegisterSubIntrHandler
+                0x0000000008902488                sceKernelDeleteThread
+                0x0000000008902418                sceDmacMemcpy
+                0x0000000008902380                sceKernelUtilsSha1Digest
+                0x0000000008902288                scePowerCancelRequest
+                0x00000000089024a8                sceKernelWaitSema
+                0x00000000089023f0                sceKernelDcacheWritebackInvalidateRange
+                0x0000000008902500                sceGeGetMtx
+                0x0000000008902130                sceDisplayWaitVblankStartCB
+                0x0000000008902320                sceAudioOutputPannedBlocking
+                0x0000000008902208                scePowerGetIdleTimer
+                0x0000000008902270                scePowerGetBatteryVolt
+                0x0000000008902468                sceKernelWaitEventFlag
+                0x0000000008902230                scePowerIsBatteryExist
+                0x0000000008902420                sceDmacTryMemcpy
+                0x0000000008902290                scePowerIsRequest
+                0x0000000008902428                sceKernelCreateThread
+                0x00000000089023a8                sceKernelUtilsMt19937UInt
+                0x00000000089023d8                sceKernelDcacheWritebackAll
+                0x00000000089023e8                sceKernelDcacheWritebackRange
+                0x00000000089021b0                sceIoRemove
+                0x00000000089022f8                scePowerGetCpuClockFrequencyFloat
+                0x0000000008902210                scePowerIdleTimerEnable
+                0x00000000089024b8                sceKernelSignalSema
+                0x0000000008902340                sceAudioSetChannelDataLen
+                0x0000000008902350                sceAudioChangeChannelVolume
+                0x0000000008902188                sceIoRead
+                0x0000000008902160                sceCtrlReadBufferPositive
+                0x00000000089024e0                sceGeEdramGetSize
+                0x00000000089020e0                sceDisplaySetHoldMode
+                0x00000000089021e8                sceKernelPowerTick
+                0x0000000008902398                sceKernelUtilsSha1BlockResult
+                0x0000000008902480                sceKernelWaitThreadEnd
+                0x00000000089021a0                sceIoClose
+                0x00000000089023f8                sceKernelDcacheProbe
+                0x0000000008902570                sceKernelReleaseSubIntrHandler
+                0x00000000089021c0                sceIoRmdir
+                0x0000000008902470                KernelPollCallbacks
+                0x0000000008902390                sceKernelUtilsSha1BlockUpdate
+                0x0000000008902140                sceDisplayGetAccumulatedHcount
+                0x00000000089024a0                sceKernelDeleteSema
+                0x00000000089020f8                sceDisplayGetFrameBuf
+                0x00000000089022a0                scePowerRequestSuspend
+                0x00000000089023c8                sceKernelLibcTime
+                0x0000000008902550                sceGeContinue
+                0x0000000008902280                scePowerUnlock
+                0x0000000008902180                sceIoDclose
+                0x0000000008902258                scePowerGetBatteryLifeTime
+                0x00000000089024f0                sceGeEdramSetAddrTranslation
+                0x0000000008902248                scePowerIsLowBattery
+                0x0000000008902110                sceDisplayIsVblank
+                0x0000000008902588                sceKernelSuspendSubIntr
+                0x0000000008902400                sceKernelDcacheReadTag
+                0x0000000008902158                sceCtrlSetSamplingMode
+                0x00000000089024f8                sceGeGetCmd
+                0x0000000008902238                scePowerIsBatteryCharging
+                0x00000000089022b8                scePowerRegisterCallback
+                0x00000000089025a0                QueryIntrHandlerInfo
+                0x0000000008902198                sceIoLseek
+                0x0000000008902298                scePowerRequestStandby
+                0x0000000008902378                sceKernelUtilsMd5BlockResult
+                0x0000000008902498                sceKernelCreateSema
+                0x0000000008902450                sceKernelDeleteEventFlag
+                0x0000000008902250                scePowerGetBatteryLifePercent
+                0x0000000008902178                sceIoDread
+                0x00000000089022c0                scePowerUnregisterCallback
+                0x0000000008902338                sceAudioGetChannelRestLen
+                0x00000000089021e0                sceKernelPowerUnlock
+                0x0000000008902108                sceDisplayGetVcount
+                0x00000000089021f0                sceKernelExitGame
+                0x0000000008902218                scePowerIdleTimerDisable
+                0x0000000008902590                sceKernelResumeSubIntr
+                0x00000000089020f0                sceDisplaySetFrameBuf
+                0x00000000089024d0                sceKernelResumeThread
+                0x0000000008902240                scePowerGetBatteryChargingStatus
+                0x00000000089021c8                sceIoDevctl
+                0x0000000008902170                sceIoDopen
+                0x0000000008902150                sceCtrlSetSamplingCycle
+                0x0000000008902530                sceGeListUpdateStallAddr
+                0x0000000008902100                sceDisplayIsForeground
+ .text          0x00000000089025b0      0xf38 obj/filer.o
+                0x000000000890319c                SJISCopy
+                0x00000000089025b0                cmpFile
+                0x0000000008903250                sort
+                0x0000000008902d50                getFilePath
+                0x000000000890275c                getDir
+ .text          0x00000000089034e8      0xe80 obj/font.o
+                0x0000000008903ef8                pgPrintDec
+                0x0000000008903600                Draw_Char_Hankaku
+                0x0000000008903d6c                pgPrint4
+                0x00000000089040a4                mh_print_hex8
+                0x0000000008903a8c                mh_print_hex2
+                0x0000000008904220                mh_print_dec
+                0x0000000008903cb0                pgPrint2
+                0x0000000008903930                pgPrintHex
+                0x00000000089036d0                Draw_Char_Zenkaku
+                0x00000000089034e8                pgPutChar
+                0x0000000008903e28                mh_print
+                0x0000000008903bf4                pgPrint
+                0x0000000008904138                mh_print_hex
+                0x0000000008904038                mh_print_hex4
+ .text          0x0000000008904368     0x2444 obj/main.o
+                0x00000000089063bc                menu_update_keyconf
+                0x0000000008904368                thumbnail_update
+                0x00000000089063a0                State_Append
+                0x0000000008904964                set_menu
+                0x0000000008906360                pspExit
+                0x0000000008904830                StateFunc
+                0x000000000890638c                State_isExist
+                0x0000000008904750                ConfigFile
+                0x0000000008905ba4                ProcMenu
+                0x00000000089062f0                thumbnail_bitblt
+                0x0000000008906478                menu_Init
+                0x0000000008905fc8                pspMain
+                0x000000000890642c                core_install
+                0x0000000008904a48                print_menu_frame
+ .text          0x00000000089067ac       0x8c obj/mp3.o
+                0x0000000008906820                MP3_Init
+                0x00000000089067ec                MP3_PlayVolume
+                0x0000000008906830                MP3_Exit
+                0x00000000089067c4                MP3_PlayBuffer
+                0x0000000008906818                run_mp3
+                0x00000000089067ac                MP3_Setup
+                0x00000000089067e4                MP3_PlayResume
+                0x0000000008906828                MP3_Loop
+                0x00000000089067cc                MP3_PlayTrack
+                0x00000000089067b4                MP3_Close
+                0x00000000089067dc                MP3_PlayPause
+                0x00000000089067bc                MP3_WaitIdle
+                0x00000000089067d4                MP3_PlayStop
+ .text          0x0000000008906838     0x1424 obj/pg.o
+                0x00000000089073a8                pgGetVramAddr
+                0x000000000890734c                pgWaitVn
+                0x0000000008907990                readpad_now
+                0x0000000008907418                pgPset
+                0x0000000008907310                pgWaitV
+                0x00000000089079e4                pgMain
+                0x00000000089075a8                pgFillBox
+                0x0000000008907678                pgFillvram
+                0x0000000008907b00                pguGetWorkdir
+                0x000000000890706c                blt_soft
+                0x00000000089076f0                pgCls
+                0x00000000089077e8                pgScreenFrame
+                0x00000000089079ac                readpad_old
+                0x00000000089078f0                pgScreenFlipV
+                0x00000000089079c8                readpad_new
+                0x0000000008907b0c                pgSetClock
+                0x0000000008906838                pgDrawLine
+                0x0000000008906c88                blt_hard
+                0x0000000008906a80                pgGeInit
+                0x0000000008907498                pgDrawFrame
+                0x0000000008907878                pgScreenFlip
+ .text          0x0000000008907c5c      0x280 obj/psp_main.o
+                0x0000000008907d40                PSP_Power_CheckSleep
+                0x0000000008907d04                PSP_Is
+                0x0000000008907d2c                PSP_SetCallback
+                0x0000000008907c5c                main
+                0x0000000008907d10                PSP_IsEsc
+                0x0000000008907d1c                PSP_GoHome
+ .text          0x0000000008907edc      0x190 obj/text.o
+                0x0000000008907edc                TXT_Loop
+                0x0000000008908064                TXT_Exit
+                0x0000000008907ff0                TXT_Init
+ .text          0x000000000890806c      0xa7c obj/common.o
+                0x0000000008908a08                GetCoreHandlerFromType
+                0x0000000008908a64                HAL_sts_read
+                0x00000000089083cc                HAL_GetSaveDir
+                0x00000000089087e0                HAL_Cfg_Save
+                0x0000000008908470                HAL_SetWorkPath
+                0x0000000008908508                HAL_GetRomsPath
+                0x0000000008908364                HAL_mem_malloc
+                0x000000000890887c                HAL_Mem_Load
+                0x00000000089086fc                HAL_IsSupportExt
+                0x0000000008908514                HAL_GetSramPath
+                0x00000000089082a0                HAL_sts_seek
+                0x000000000890835c                HAL_Cleanup
+                0x00000000089083d8                HAL_SetRomsPath
+                0x000000000890813c                GetCoreHandler
+                0x000000000890863c                HAL_SetupExt
+                0x000000000890856c                HAL_GetSavePath
+                0x0000000008908a44                HAL_sts_open
+                0x0000000008908a5c                HAL_sts_close
+                0x00000000089084fc                HAL_GetWorkPath
+                0x0000000008908944                HAL_Mem_Save
+                0x000000000890820c                HAL_sts_write
+                0x00000000089083b0                HAL_mem_free
+                0x00000000089086d0                HAL_GetSupportExt
+                0x000000000890806c                getExtId
+                0x0000000008908738                HAL_Cfg_Load
+ .text          0x0000000008908ae8      0x76c obj/cstring.o
+                0x0000000008908ec8                core_stricmp
+                0x0000000008908dfc                core_strcat
+                0x0000000008908ba8                core_memcpy
+                0x0000000008908d14                core_strcpy
+                0x0000000008909074                core_ustoa
+                0x0000000008908b60                core_memcmp
+                0x0000000008909200                core_atoi
+                0x0000000008908bd8                core_memmove
+                0x0000000008908f28                core_strrev
+                0x0000000008908f90                core_itoa
+                0x0000000008908e60                core_strcmp
+                0x0000000008908cb0                core_memsetX4
+                0x0000000008908e8c                core_strncmp
+                0x0000000008908dac                core_strrchr
+                0x0000000008908ae8                core_atoh
+                0x0000000008909138                core_ultoa
+                0x0000000008908d58                core_strchr
+                0x0000000008908cec                core_strlen
+                0x0000000008908c4c                core_memset
+                0x0000000008908c6c                core_memcpyX4
+ .text          0x0000000008909254      0x2f0 obj/file_io.o
+                0x00000000089094a8                CartFree
+                0x0000000008909254                funcUnzipCallback
+                0x00000000089094c8                CheckState
+                0x0000000008909318                CartLoad
+ .text          0x0000000008909544      0xb6c obj/hal.o
+                0x0000000008909f0c                HAL_fb2_init
+                0x0000000008909ef8                HAL_Sound
+                0x0000000008909730                HAL_fps
+                0x0000000008909544                HAL_fb2_bitblt
+                0x0000000008909f74                HAL_fb2_Color
+                0x0000000008909f68                HAL_fb2_close
+                0x0000000008909918                HAL_Input
+ .text          0x000000000890a0b0      0x2c0 obj/hal_cd.o
+                0x000000000890a0cc                HAL_PCE_CD_Stop
+                0x000000000890a1b0                Mp3Name
+                0x000000000890a290                IsoName
+                0x000000000890a0e8                cdName
+                0x000000000890a0b0                HAL_PCE_CD_Play
+                0x000000000890a1a4                tocName
+ .text          0x000000000890a370      0x1e4 obj/hal_file.o
+                0x000000000890a3a8                HAL_fd_open
+                0x000000000890a38c                HAL_fd_delete
+                0x000000000890a370                HAL_fd_mkdir
+                0x000000000890a4a8                HAL_fd_size
+                0x000000000890a538                HAL_fd_write
+                0x000000000890a51c                HAL_fd_read
+                0x000000000890a420                HAL_fd_close
+                0x000000000890a43c                HAL_fd_seek
+ .text          0x000000000890a554      0x704 obj/hal_sound.o
+                0x000000000890a788                bufGetUnlock
+                0x000000000890a6d8                bufLen
+                0x000000000890a7f0                saturate
+                0x000000000890a810                HAL_Sound_Init
+                0x000000000890a8bc                HAL_Sound_Close
+                0x000000000890aa0c                HAL_Sound_Proc32
+                0x000000000890a57c                hal_snd_wakeup
+                0x000000000890a910                HAL_Sound_Proc16
+                0x000000000890ab50                HAL_Sound_Proc32m
+                0x000000000890a5ac                hal_sound_thread
+                0x000000000890a704                sndBufLen
+                0x000000000890a554                hal_snd_sleep
+                0x000000000890a730                bufGetLock
+ .text          0x000000000890ac58      0x1dc libs/libunzip.a(zlibInterface.o)
+                0x000000000890ae28                Unzip_setCallback
+                0x000000000890ac58                Unzip_execExtract
+ .text          0x000000000890ae34     0x3834 libs/libunzip.a(unzip.o)
+                0x000000000890c378                unzOpenCurrentFilePassword
+                0x000000000890bce0                unzReadCurrentFile
+                0x000000000890c2e4                unzGoToFilePos
+                0x000000000890b800                unzLocateFile
+                0x000000000890baa0                unzOpenCurrentFile3
+                0x000000000890b7a0                unzGoToFirstFile
+                0x000000000890c350                unzOpenCurrentFile
+                0x000000000890c3a0                unzOpenCurrentFile2
+                0x000000000890c18c                unzGetGlobalInfo
+                0x000000000890c3fc                unzGetLocalExtrafield
+                0x000000000890c1b0                unzGetCurrentFileInfo
+                0x000000000890c2ac                unzGetFilePos
+                0x000000000890c5d8                unzSetOffset
+                0x000000000890c594                unzGetOffset
+                0x000000000890c1f8                unzGoToNextFile
+                0x000000000890bf9c                unzCloseCurrentFile
+                0x000000000890c3d8                unzeof
+                0x000000000890c4bc                unzGetGlobalComment
+                0x000000000890c3bc                unztell
+                0x000000000890ae34                unzOpen2
+                0x000000000890c058                unzStringFileNameCompare
+                0x000000000890c12c                unzClose
+                0x000000000890c110                unzOpen
+ .text          0x000000000890e668      0x438 libs/libunzip.a(zlibFileMemory.o)
+                0x000000000890e9c4                ___ftell
+                0x000000000890ea58                _(float, long double,...)(...)
+                0x000000000890e910                ___strcat
+                0x000000000890e984                ___fopen
+                0x000000000890e668                ___itoa
+                0x000000000890ea20                ___fread
+                0x000000000890e9d0                ___fseek
+                0x000000000890ea18                ___ferror
+                0x000000000890e80c                ___memcpy
+                0x000000000890e9bc                ___fwrite
+                0x000000000890e840                ___strcmp
+                0x000000000890e9f4                ___fclose
+                0x000000000890ea60                ___calloc
+                0x000000000890e86c                ___strcpy
+                0x000000000890e8b0                ___strrev
+                0x000000000890e748                ___itoa32
+                0x000000000890ea68                ___malloc
+ .text          0x000000000890eaa0      0x1ec libs/libunzip.a(ioapi.o)
+                0x000000000890eb8c                fseek_file_func
+                0x000000000890eb20                fread_file_func
+                0x000000000890ebf8                fclose_file_func
+                0x000000000890ec30                fill_fopen_filefunc
+                0x000000000890eb70                ftell_file_func
+                0x000000000890ec14                ferror_file_func
+                0x000000000890eb48                fwrite_file_func
+                0x000000000890eaa0                fopen_file_func
+ .text          0x000000000890ec8c      0xa74 libs/libz.a(crc32.o)
+                0x000000000890ec8c                crc32
+                0x000000000890f4e0                crc32_combine
+                0x000000000890f6f4                get_crc_table
+ .text          0x000000000890f700     0x217c libs/libz.a(inflate.o)
+                0x0000000008911378                inflateCopy
+                0x000000000890f870                inflate
+                0x00000000089116e4                inflateSyncPoint
+                0x00000000089116ac                inflateGetHeader
+                0x0000000008911618                inflateInit_
+                0x00000000089115bc                inflatePrime
+                0x000000000891154c                inflateReset
+                0x0000000008911138                inflateSync
+                0x000000000891101c                inflateSetDictionary
+                0x000000000891163c                inflateEnd
+                0x000000000890f700                inflateInit2_
+ .text          0x000000000891187c      0x564 libs/libz.a(inftrees.o)
+                0x000000000891187c                inflate_table
+ .text          0x0000000008911de0      0x528 libs/libz.a(inffast.o)
+                0x0000000008911de0                inflate_fast
+ .text          0x0000000008912308      0x444 libs/libz.a(adler32.o)
+                0x0000000008912308                adler32
+                0x0000000008912690                adler32_combine
+ .text          0x000000000891274c       0x74 libs/libz.a(zutil.o)
+                0x0000000008912754                zlibVersion
+                0x000000000891274c                zlibCompileFlags
+                0x00000000089127a4                zcfree
+                0x0000000008912760                zError
+                0x0000000008912780                zcalloc
+ .text          0x00000000089127c0     0x32ec obj/liblynx.a(System.o)
+                0x0000000008913350                upd_aud_misc
+                0x00000000089133b8                LNX_Setup
+                0x0000000008913270                update_ctla
+                0x0000000008912ec0                CMemMap_Poke
+                0x00000000089132b8                upd_aud_ctl
+ .text          0x0000000008915aac     0x61e0 obj/liblynx.a(C65c02.o)
+                0x000000000891bad4                C65C02_PS1
+                0x000000000891bb14                C65C02_Init
+                0x000000000891bc80                C65C02_GetPC
+                0x000000000891ba74                C65C02_PS0
+                0x000000000891ba6c                C65C02_xILLEGAL
+                0x0000000008915c68                C65C02_Update
+                0x000000000891bbdc                C65C02_Reset
+                0x0000000008915aac                C65C02_IRQ_Check
+ .text          0x000000000891bc8c      0xe3c obj/libsms.a(sms.o)
+                0x000000000891be88                z80cpu_writeport
+                0x000000000891bc8c                sms_frame
+                0x000000000891c6f0                z80cpu_reset
+                0x000000000891c310                sms_mapper_w
+                0x000000000891c4ec                sms_init
+                0x000000000891c774                sms_irq_callback
+                0x000000000891c0c8                z80cpu_readport
+                0x000000000891c77c                SMS_Setup
+                0x000000000891c718                cpu_writemem16
+                0x000000000891c5f8                sms_reset
+ .text          0x000000000891cac8      0xd70 obj/libsms.a(render.o)
+                0x000000000891d1cc                update_cache
+                0x000000000891d364                palette_sync
+                0x000000000891d630                render_bg_gg
+                0x000000000891d44c                render_line
+                0x000000000891cc58                render_bg_sms
+                0x000000000891cac8                render_init
+                0x000000000891cf5c                render_obj
+                0x000000000891d798                remap_8_to_16
+                0x000000000891cb60                render_reset
+ .text          0x000000000891d838      0x424 obj/libsms.a(vdp.o)
+                0x000000000891da58                vdp_reset
+                0x000000000891dbf8                vdp_hcounter_r
+                0x000000000891d838                vdp_data_w
+                0x000000000891db34                vdp_ctrl_r
+                0x000000000891d924                vdp_run
+                0x000000000891da94                vdp_ctrl_w
+                0x000000000891dbd8                vdp_vcounter_r
+                0x000000000891dba4                vdp_data_r
+                0x000000000891da1c                vdp_init
+ .text          0x000000000891dc5c      0x64c obj/libsms.a(system.o)
+                0x000000000891ddec                system_load_state
+                0x000000000891e118                system_init
+                0x000000000891dc5c                audio_init
+                0x000000000891e17c                system_shutdown
+                0x000000000891e0e0                ym2413_write
+                0x000000000891e21c                system_save_state
+                0x000000000891e1b8                system_reset
+ .text          0x000000000891e2a8      0x6bc obj/libsms.a(sn76496.o)
+                0x000000000891e740                SN76496_set_clock
+                0x000000000891e2a8                SN76496Write
+                0x000000000891e494                SN76496Update
+                0x000000000891e788                SN76496_set_gain
+                0x000000000891e820                SN76496_init
+ .text          0x000000000891e964     0x412c obj/libsms.a(emu2413.o)
+                0x000000000891e964                OPLL_new
+                0x0000000008922234                OPLL_setClock
+                0x0000000008922384                OPLL_setMask
+                0x0000000008921e54                dump2patch
+                0x000000000891ebb4                OPLL_reset_patch
+                0x000000000891edc0                OPLL_calc
+                0x0000000008922178                OPLL_copyPatch
+                0x000000000891ec34                OPLL_reset
+                0x0000000008921f98                OPLL_forceRefresh
+                0x000000000891f8dc                OPLL_writeReg
+                0x000000000892237c                OPLL_close
+                0x00000000089223c0                OPLL_writeIO
+                0x0000000008922254                OPLL_init
+                0x00000000089223a0                OPLL_toggleMask
+                0x00000000089221a4                OPLL_delete
+ .text          0x0000000008922a90    0x1a01c obj/libsms.a(z80.o)
+                0x0000000008927970                z80_exit
+                0x00000000089279c4                z80_get_context
+                0x00000000089278a4                z80_set_irq_line
+                0x0000000008924410                z80_reset
+                0x0000000008927a94                z80_get_sp
+                0x0000000008927a7c                z80_get_pc
+                0x0000000008927aac                z80_set_irq_callback
+                0x0000000008927428                z80_get_reg
+                0x0000000008927aa0                z80_set_sp
+                0x00000000089248d0                z80_execute
+                0x00000000089277f4                z80_set_nmi_line
+                0x0000000008927a88                z80_set_pc
+                0x000000000892761c                z80_set_reg
+                0x0000000008927a20                z80_set_context
+                0x00000000089273e8                z80_burn
+ .text          0x000000000893caac     0x3704 obj/libnes.a(nes.o)
+                0x000000000893ee64                NES_loadState
+                0x000000000893eea4                NES_ppu_rgb
+                0x000000000893ef98                NES_DiskAccessed
+                0x000000000893e684                NES_calculate_palette
+                0x000000000893eecc                NES_GetDiskSideNum
+                0x000000000893e4dc                NES_emulate_CPU_cycles
+                0x000000000893ef44                NES_SetDiskSide
+                0x000000000893e004                NES_WriteLowRegs
+                0x000000000893ecb4                NES_set_pad
+                0x000000000893e258                NES_WriteHighRegs
+                0x000000000893ee84                NES_saveState
+                0x000000000893e674                NES_Save_Disk
+                0x000000000893eff0                NES_Setup
+                0x000000000893e67c                NES_Load_Disk
+                0x000000000893caac                NES_reset
+                0x000000000893e61c                NES_Load_SaveRAM
+                0x000000000893e0a0                NES_ReadHighRegs
+                0x000000000893e570                NES_trim_cycle_counts
+                0x000000000893ef08                NES_GetDiskSide
+                0x000000000893efd4                NES_GetROMInfoStr
+                0x000000000893ed24                NES_frozen
+                0x000000000893ecf0                NES_freeze
+                0x000000000893ec1c                NES_Init
+                0x000000000893df20                NES_MemoryWrite
+                0x000000000893e5a0                NES_Save_SaveRAM
+                0x000000000893ee10                NES_ReadLowRegs
+                0x000000000893ed18                NES_thaw
+                0x000000000893ed30                NES_MemoryRead
+ .text          0x00000000089401b0       0xf4 obj/libnes.a(nes_config.o)
+                0x000000000894021c                NES_Config_SetPreferencesDefaults
+                0x000000000894025c                NES_Config_SetSoundDefaults
+                0x00000000089401b0                NES_Config_SetDefaults_All
+                0x0000000008940238                NES_Config_SetGraphicsDefaults
+ .text          0x00000000089402a4    0x1df20 obj/libnes.a(nes_mapper.o)
+                0x00000000089512a8                GetMapper
+                0x0000000008953254                NES_mapper52_SNSS_fixup
+                0x0000000008952e34                NES_mapper23_SNSS_fixup
+                0x0000000008952a08                NES_mapper10_SNSS_fixup
+                0x0000000008952adc                NES_mapper13_SNSS_fixup
+                0x0000000008953094                NES_mapper49_SNSS_fixup
+                0x000000000894c848                NES_mapper118_SNSS_fixup
+                0x0000000008952934                NES_mapper9_SNSS_fixup
+                0x0000000008952d24                NES_mapper21_SNSS_fixup
+                0x0000000008940a74                NES_mapper4_SNSS_fixup
+                0x0000000008952b5c                NES_mapper18_SNSS_fixup
+                0x0000000008952f44                NES_mapper25_SNSS_fixup
+                0x0000000008952cc8                NES_mapper20_SNSS_fixup
+                0x0000000008953770                NES_mapper248_SNSS_fixup
+                0x00000000089528f0                NES_mapper_base_set_VRAM_bank_unif
+                0x0000000008953408                NES_mapper95_SNSS_fixup
+                0x00000000089535bc                NES_mapper112_SNSS_fixup
+ .text          0x000000000895e1c4     0x1c44 obj/libnes.a(nes_rom.o)
+                0x000000000895fd70                NES_ROM_get_UNIF_psize_16k
+                0x000000000895fcbc                NES_ROM_has_save_RAM
+                0x000000000895fce8                NES_ROM_get_num_8k_VROM_banks
+                0x000000000895fc2c                NES_findDB
+                0x000000000895fd98                NES_ROM_GetROMInfoStr
+                0x000000000895fccc                NES_ROM_is_VSUnisystem
+                0x000000000895fd58                NES_ROM_fds_id
+                0x000000000895fca4                NES_ROM_get_mapper_num
+                0x000000000895fd00                NES_ROM_get_ROM_banks
+                0x000000000895fd40                NES_ROM_crc32
+                0x000000000895e1c4                NES_openDB
+                0x000000000895fd64                NES_ROM_get_size_SaveRAM
+                0x000000000895fd20                NES_ROM_get_screen_mode
+                0x000000000895fd2c                NES_ROM_get_GameTitleName
+                0x000000000895fcf4                NES_ROM_get_trainer
+                0x000000000895fc84                NES_ROM_get_mirroring
+                0x000000000895e5cc                NES_ROM_LoadRom
+                0x000000000895fcb0                NES_ROM_get_unifmapper_num
+                0x000000000895fc7c                NES_closeDB
+                0x000000000895fd0c                NES_ROM_get_VROM_banks
+                0x000000000895fcdc                NES_ROM_get_num_16k_ROM_banks
+                0x000000000895fc1c                NES_ROM_has_trainer
+                0x000000000895fd84                NES_ROM_get_UNIF_csize_8k
+                0x000000000895fd4c                NES_ROM_crc32_all
+ .text          0x000000000895fe08     0x1f18 obj/libnes.a(snss.o)
+                0x00000000089600b4                SaveSNSS
+                0x000000000895fe08                LoadSNSS
+ .text          0x0000000008961d20       0xa0 obj/libnes.a(nes_crc32.o)
+                0x0000000008961d70                CrcCalca
+                0x0000000008961d20                CrcCalc
+ .text          0x0000000008961dc0     0x12f8 obj/libnes.a(libsnss.o)
+                0x0000000008962208                SNSS_SkipNextBlock
+                0x0000000008962114                SNSS_CloseFile
+                0x0000000008962444                SNSS_WriteBlock
+                0x00000000089622ac                SNSS_ReadBlock
+                0x0000000008961ee0                SNSS_GetErrorString
+                0x0000000008961dc0                SNSS_GetNextBlockType
+                0x0000000008961f70                SNSS_OpenFile
+ .text          0x00000000089630b8     0xdd68 obj/libnes.a(nes6502.o)
+                0x0000000008970e08                nes6502_burn
+                0x00000000089709cc                nes6502_irq
+                0x0000000008970d2c                nes6502_getcontext
+                0x0000000008970b3c                nes6502_pending_irq
+                0x0000000008970dcc                nes6502_reset
+                0x0000000008970d84                nes6502_getbyte
+                0x0000000008970dac                nes6502_getcycles
+                0x0000000008970894                nes6502_nmi
+                0x0000000008970cb8                nes6502_setcontext
+                0x00000000089630b8                nes6502_execute
+ .text          0x0000000008970e20     0x2408 obj/libnes.a(nes_ppu.o)
+                0x0000000008971324                NES_PPU_write_2007
+                0x0000000008972fd0                NES_PPU_set_mirroring
+                0x0000000008972f9c                NES_PPU_getViewableHeight
+                0x0000000008971088                NES_PPU_do_scanline_and_draw
+                0x0000000008973014                NES_PPU_start_frame
+                0x0000000008970ff0                NES_PPU_set_mirroring2
+                0x00000000089730d0                NES_PPU_ReadLowRegs
+                0x0000000008973044                NES_PPU_read_2007
+                0x00000000089731c0                NES_PPU_Write0x4014
+                0x0000000008972f70                NES_PPU_getTopMargin
+                0x0000000008971400                NES_PPU_WriteLowRegs
+                0x000000000897120c                NES_PPU_do_scanline_and_dont_draw
+                0x0000000008970e20                NES_PPU_reset
+ .text          0x0000000008973228      0x7a4 obj/libnes.a(nes_apu_wrapper.o)
+                0x00000000089734e8                NES_APU_AssertParams
+                0x0000000008973994                NES_APU_SyncAPURegister
+                0x00000000089734cc                NES_APU_ShutDown
+                0x0000000008973714                NES_APU_Write
+                0x00000000089737f8                NES_APU_freeze
+                0x0000000008973764                NES_APU_ExRead
+                0x0000000008973780                NES_APU_ExWrite
+                0x00000000089738a4                NES_APU_get_regs
+                0x00000000089735d0                NES_APU_snd_mgr_changed
+                0x00000000089739b0                NES_APU_SyncDMCRegister
+                0x000000000897379c                NES_APU_DoFrame
+                0x00000000089736f8                NES_APU_Read
+                0x00000000089735a0                NES_APU_reset
+                0x00000000089733d8                NES_APU_Init
+                0x0000000008973228                NES_APU_SelectExSound
+                0x0000000008973800                NES_APU_load_regs
+ .text          0x00000000089739cc      0x6b0 obj/libnes.a(nes_fme7.o)
+ .text          0x000000000897407c      0x738 obj/libnes.a(nes_mmc5.o)
+ .text          0x00000000089747b4      0x56c obj/libnes.a(nes_n106.o)
+ .text          0x0000000008974d20      0x4c8 obj/libnes.a(nes_vrc6.o)
+ .text          0x00000000089751e8      0xc90 obj/libnes.a(nes_vrc7.o)
+                0x00000000089751e8                OPLLSoundReset
+                0x0000000008975320                VRC7SetTone
+                0x000000000897536c                VRC7_Reset
+ .text          0x0000000008975e78      0x8b0 obj/libnes.a(nes_fds.o)
+                0x000000000897613c                FDS_SetRate
+                0x0000000008976238                FDS_Read
+                0x0000000008975e78                FDS_Write
+                0x0000000008976194                FDS_Reset
+ .text          0x0000000008976728     0x1f88 obj/libnes.a(nes_apu.o)
+                0x00000000089778fc                sync_apu_register
+                0x00000000089775d4                apu_getpcmdata
+                0x0000000008976de8                nes_apu_process
+                0x000000000897788c                apu_destroy
+                0x0000000008976a34                nes_apu_write_cur
+                0x0000000008976cbc                ex_write
+                0x0000000008976728                ex_read
+                0x00000000089776d0                apu_build_luts
+                0x0000000008977514                nes_apu_read
+                0x0000000008977778                apu_create
+                0x0000000008977620                apu_setlowpass_filter_f
+                0x00000000089774e8                apu_getcontext
+                0x000000000897710c                nes_apu_reset
+                0x0000000008977298                apu_setparams
+                0x000000000897763c                nes_apu_reset_apus
+                0x000000000897744c                sync_dmc_register
+                0x0000000008977604                apu_setfilter
+                0x00000000089774f4                apu_setchan
+                0x0000000008976854                nes_apu_write
+ .text          0x00000000089786b0       0xe4 obj/libnes.a(nes_exsound.o)
+                0x0000000008978738                LogTableInitialize
+                0x00000000089786b0                LinearToLog
+                0x0000000008978740                DivFix
+                0x00000000089786e8                LogToLinear
+ .text          0x0000000008978794     0x17a4 obj/libgbc.a(gb.o)
+                0x0000000008979c60                GBC_Setup
+                0x0000000008979c14                renderer_get_sensor
+                0x0000000008979b40                gb_load_rom
+                0x000000000897995c                set_gb_type
+                0x00000000089794f4                gb_run
+                0x000000000897992c                mbc_get_rom
+                0x0000000008979a3c                render_screen
+                0x0000000008979a94                gb_init
+                0x0000000008978ee0                gb_restore_state
+                0x0000000008979a28                renderer_refresh
+                0x0000000008979920                get_sram
+                0x0000000008979938                mbc_get_sram
+                0x0000000008979b80                _memcpy4x
+                0x0000000008979a30                renderer_reset
+                0x0000000008979b28                gb_unhook_extport
+                0x0000000008979c34                renderer_get_timer_state
+                0x0000000008979c44                renderer_init
+                0x0000000008979b34                gb_set_skip
+                0x0000000008979b78                gb_refresh_pal
+                0x0000000008979944                mbc_is_ext_ram
+                0x0000000008979c0c                renderer_set_time
+                0x0000000008979a70                gb_fill_vframe
+                0x0000000008979950                mbc_set_ext_is
+                0x0000000008979ba8                _memcpy40
+                0x0000000008979c3c                renderer_set_timer_state
+                0x0000000008978864                gb_save_state
+                0x0000000008979914                get_rom
+                0x0000000008979c04                renderer_get_time
+                0x0000000008979b08                gb_hook_extport
+                0x0000000008978794                gb_reset
+                0x0000000008979908                rom_get_info
+ .text          0x0000000008979f38     0x1f58 obj/libgbc.a(lcd.o)
+                0x000000000897ba14                set_ztbl
+                0x000000000897be7c                lcd_get_pal
+                0x000000000897be6c                lcd_clear_win_count
+                0x000000000897a34c                lcd_win_render
+                0x000000000897a6d0                lcd_sprite_render
+                0x000000000897b8fc                dattrans2n
+                0x0000000008979f38                lcd_bg_render
+                0x000000000897b8bc                lcd_get_enable
+                0x000000000897b860                lcd_init
+                0x000000000897b88c                lcd_set_mpal
+                0x000000000897b898                lcd_get_mpal
+                0x000000000897bc2c                lcd_render
+                0x000000000897b438                lcd_sprite_render_color
+                0x000000000897b8d4                lcd_reset
+                0x000000000897bac0                lcd_sgb_render
+                0x000000000897abe8                lcd_bg_render_color
+                0x000000000897b8a4                lcd_set_enable
+                0x000000000897b070                lcd_win_render_color
+ .text          0x000000000897be90     0x1fa4 obj/libgbc.a(sgb.o)
+                0x000000000897de18                sgb_sound_transfer
+                0x000000000897dcd0                sgb_pct_trn
+                0x000000000897d7dc                sgb_setATF
+                0x000000000897c184                sgb_reset
+                0x000000000897c85c                sgb_execute_command
+                0x000000000897c068                sgb_render_screen
+                0x000000000897d648                set_palette
+                0x000000000897d5d0                sgb_multiplayer_req
+                0x000000000897dbd8                sgb_chr_trn
+                0x000000000897d5a4                sgb_init
+                0x000000000897be90                sgb_draw_border_tile
+                0x000000000897da5c                sgb_attribute_line
+                0x000000000897c2d4                sgb_attribute_block
+                0x000000000897d828                copy_palette
+                0x000000000897c48c                sgb_attribute_divide
+                0x000000000897d2e8                sgb_transfer
+                0x000000000897d51c                sgb_render_border
+                0x000000000897d964                init_mem_palette
+                0x000000000897da08                sgb_SetRowPalette
+                0x000000000897d5c0                sgb_reset_state
+                0x000000000897d9c0                sgb_SetColumnPalette
+                0x000000000897c6dc                sgb_attribute_character
+                0x000000000897db5c                sgb_set_ATFlist
+ .text          0x000000000897de34      0x290 obj/libgbc.a(gbrom.o)
+                0x000000000897e0ac                rom_set_first
+                0x000000000897e0a0                rom_get_loaded
+                0x000000000897de34                rom_load_rom
+                0x000000000897e07c                rom_get_sram_size
+                0x000000000897e034                rom_init
+                0x000000000897e048                rom_has_battery
+ .text          0x000000000897e0c4     0x158c obj/libgbc.a(mbc.o)
+                0x000000000897e7e8                mbc_get_state
+                0x000000000897f234                mbc_reset
+                0x000000000897f570                mbc_mbc7_write
+                0x000000000897f34c                mbc_mbc2_write
+                0x000000000897efc8                mbc_mmm01_write
+                0x000000000897eb78                mbc_mbc3_write
+                0x000000000897e1c0                mbc_ext_read
+                0x000000000897f188                mbc_init
+                0x000000000897e3a0                mbc_ext_write
+                0x000000000897e0c4                mbc_set_write
+                0x000000000897f2e8                mbc_set_page
+                0x000000000897e8f8                mbc_set_state
+                0x000000000897f3a8                mbc_mbc5_write
+                0x000000000897f2e0                mbc_read
+                0x000000000897f344                mbc_nop
+                0x000000000897f648                mbc_tama5_write
+                0x000000000897e9f8                mbc_mbc1_write
+                0x000000000897ed40                mbc_huc1_write
+                0x000000000897eec8                mbc_huc3_write
+ .text          0x000000000897f650     0x1980 obj/libgbc.a(gb_apu.o)
+                0x0000000008980b74                apu_get_stat_gen
+                0x0000000008980b60                apu_update
+                0x0000000008980fc4                snd_get_lowpass
+                0x000000000897fb34                snd_noi_produce
+                0x0000000008980bb4                snd_reset
+                0x000000000897fcb0                snd_update
+                0x0000000008980d5c                snd_get_enable
+                0x0000000008980fb8                snd_set_lowpass
+                0x0000000008980b68                apu_get_stat_cpu
+                0x000000000897f650                snd_process
+                0x000000000897ffa0                gbc_snd_render
+                0x0000000008980d44                snd_set_enable
+                0x0000000008980eb4                snd_wav_produce
+                0x0000000008980a68                apu_write
+                0x0000000008980e14                snd_sq2_produce
+                0x0000000008980650                apu_init
+                0x0000000008980b8c                snd_init
+                0x0000000008980804                apu_reset
+                0x0000000008980994                apu_read
+                0x0000000008980b80                apu_get_mem
+                0x0000000008980d74                snd_sq1_produce
+ .text          0x0000000008980fd0      0x424 obj/libgbc.a(cheat.o)
+                0x00000000089813c4                cheat_init
+                0x0000000008981220                cheat_write
+                0x0000000008980fd0                cheat_decreate_cheat_map
+                0x00000000089813a4                cheat_clear
+                0x0000000008981360                free_cheatmap
+                0x00000000089813ec                cheat_load
+                0x00000000089813e4                hex2n
+                0x00000000089810c8                cheat_create_cheat_map
+                0x00000000089812ec                malloc_cheatmap
+ .text          0x00000000089813f4     0xc9c4 obj/libgbc.a(cpu.o)
+                0x0000000008986148                op_code_cb_case0x15
+                0x000000000898aa60                op_code_normal_case0xA0
+                0x0000000008983f88                op_code_cb_case0xFF
+                0x0000000008984f18                op_code_cb_case0xBD
+                0x000000000898c9a0                op_code_normal_case0xC9
+                0x0000000008982388                cpu_read
+                0x000000000898b250                op_code_normal_case0xBA
+                0x0000000008987274                op_code_normal_case0x2A
+                0x0000000008983e1c                op_code_cb_case0xEB
+                0x0000000008985634                op_code_cb_case0xAE
+                0x0000000008983e94                op_code_cb_case0xF2
+                0x0000000008984ea0                op_code_cb_case0xB7
+                0x0000000008988014                op_code_normal_case0x7D
+                0x000000000898b04c                op_code_normal_case0xF6
+                0x000000000898cca4                cpu_set_c_regs
+                0x0000000008987e34                op_code_normal_case0x51
+                0x0000000008983d40                op_code_cb_case0xDF
+                0x00000000089850a4                op_code_cb_case0x8E
+                0x0000000008989ce4                op_code_normal_case0x87
+                0x0000000008987f14                op_code_normal_case0x62
+                0x00000000089893d8                op_code_normal_case0xF9
+                0x0000000008987e14                op_code_normal_case0x4F
+                0x0000000008989038                op_code_normal_case0x0A
+                0x0000000008986400                op_code_cb_case0x1B
+                0x0000000008983a64                op_code_cb_case0x7E
+                0x000000000898802c                op_code_normal_case0x06
+                0x0000000008983e08                op_code_cb_case0xEA
+                0x0000000008984e00                op_code_cb_case0xAD
+                0x00000000089890d4                op_code_normal_case0x1A
+                0x00000000089830a4                op_code_cb_case0x64
+                0x00000000089866b0                op_code_cb_case0x21
+                0x000000000898ade8                op_code_normal_case0xEE
+                0x0000000008982360                cpu_restore_state_ex
+                0x0000000008983b74                op_code_cb_case0xC4
+                0x000000000898b86c                op_code_normal_case0x05
+                0x0000000008987594                op_code_normal_case0xD9
+                0x0000000008987de4                op_code_normal_case0x4B
+                0x0000000008989fa8                op_code_normal_case0x8B
+                0x0000000008989be4                op_code_normal_case0x82
+                0x0000000008986390                op_code_cb_case0x19
+                0x00000000089822c8                cpu_save_state_ex
+                0x0000000008982c54                op_code_cb_case0x4A
+                0x0000000008988ab0                op_code_normal_case0x72
+                0x0000000008989318                op_code_normal_case0x01
+                0x00000000089884c4                op_code_normal_case0x46
+                0x0000000008987e9c                op_code_normal_case0x59
+                0x00000000089836a4                op_code_cb_case0x56
+                0x0000000008986068                op_code_cb_case0x11
+                0x0000000008983c8c                op_code_cb_case0xD4
+                0x0000000008984b1c                op_code_cb_case0x83
+                0x0000000008983bec                op_code_cb_case0xCB
+                0x0000000008988734                op_code_normal_case0x66
+                0x0000000008984978                op_code_cb_case0xFE
+                0x000000000898bef0                op_code_normal_case0x00
+                0x0000000008987d9c                op_code_normal_case0x45
+                0x000000000898bd60                op_code_normal_case0x1B
+                0x000000000898536c                op_code_cb_case0x9E
+                0x0000000008981f38                cpu_init
+                0x000000000898afa4                op_code_normal_case0xB2
+                0x0000000008985e38                op_code_cb_case0x0D
+                0x000000000898b328                op_code_normal_case0xBD
+                0x000000000898a3c0                op_code_normal_case0x94
+                0x000000000898c610                op_code_normal_case0xCD
+                0x0000000008984e78                op_code_cb_case0xB4
+                0x0000000008983dcc                op_code_cb_case0xE7
+                0x0000000008984c48                op_code_cb_case0x94
+                0x000000000898c654                op_code_normal_case0xC4
+                0x00000000089826fc                op_read
+                0x0000000008983524                op_code_cb_case0x46
+                0x0000000008985af0                op_code_cb_case0x03
+                0x000000000898a630                op_code_normal_case0x98
+                0x0000000008986cc4                op_code_cb_case0x3B
+                0x0000000008983ee4                op_code_cb_case0xF7
+                0x0000000008986c4c                op_code_cb_case0x38
+                0x0000000008983344                op_code_cb_case0x74
+                0x0000000008982fe4                op_code_cb_case0x60
+                0x000000000898817c                op_code_normal_case0x16
+                0x0000000008982d74                op_code_cb_case0x51
+                0x0000000008983bc4                op_code_cb_case0xC9
+                0x0000000008985d48                op_code_cb_case0x08
+                0x000000000898c03c                op_code_normal_case0xC2
+                0x00000000089833a4                op_code_cb_case0x77
+                0x0000000008986f50                op_code_cb_case0x32
+                0x000000000898b5b4                op_code_normal_case0x14
+                0x000000000898ab00                op_code_normal_case0xA4
+                0x0000000008983d90                op_code_cb_case0xE3
+                0x00000000089854d0                op_code_cb_case0xA6
+                0x0000000008984bf8                op_code_cb_case0x90
+                0x000000000898c798                op_code_normal_case0xDC
+                0x0000000008987df4                op_code_normal_case0x4C
+                0x0000000008986d3c                op_code_cb_case0x3F
+                0x0000000008987f9c                op_code_normal_case0x6C
+                0x000000000898b10c                op_code_normal_case0xB6
+                0x0000000008982d44                op_code_cb_case0x50
+                0x0000000008987ec4                op_code_normal_case0x5C
+                0x0000000008985e68                op_code_cb_case0x0F
+                0x0000000008984ef0                op_code_cb_case0xBB
+                0x00000000089835e4                op_code_cb_case0x4E
+                0x0000000008985dd8                op_code_cb_case0x0B
+                0x0000000008989b64                op_code_normal_case0x80
+                0x0000000008984e64                op_code_cb_case0xB3
+                0x000000000898b6a4                op_code_normal_case0x3C
+                0x0000000008987864                op_code_normal_case0xE8
+                0x000000000898ada4                op_code_normal_case0xAD
+                0x0000000008983cdc                op_code_cb_case0xD9
+                0x0000000008984b6c                op_code_cb_case0x88
+                0x0000000008983c28                op_code_cb_case0xCF
+                0x000000000898886c                op_code_normal_case0x7E
+                0x0000000008987f04                op_code_normal_case0x61
+                0x0000000008987d54                op_code_normal_case0x40
+                0x000000000898bc84                op_code_normal_case0x29
+                0x000000000898bef8                op_code_normal_case0xF3
+                0x0000000008986950                op_code_cb_case0x28
+                0x000000000898b298                op_code_normal_case0xBB
+                0x0000000008982f54                op_code_cb_case0x5C
+                0x000000000898a458                op_code_normal_case0x97
+                0x0000000008982958                cpu_seri_send
+                0x0000000008982b04                op_code_cb_case0x42
+                0x000000000898bd4c                op_code_normal_case0x0B
+                0x00000000089831f4                op_code_cb_case0x6C
+                0x000000000898cbd8                cpu_set_trace
+                0x0000000008983df4                op_code_cb_case0xE9
+                0x0000000008985208                op_code_cb_case0x96
+                0x0000000008987a08                op_code_normal_case0xF0
+                0x00000000089893e8                op_code_normal_case0xC5
+                0x0000000008987e8c                op_code_normal_case0x58
+                0x000000000898b034                op_code_normal_case0xB7
+                0x0000000008987324                op_code_normal_case0x22
+                0x0000000008987f3c                op_code_normal_case0x65
+                0x0000000008987fac                op_code_normal_case0x6D
+                0x0000000008983464                op_code_cb_case0x7B
+                0x0000000008987f34                op_code_normal_case0x64
+                0x00000000089833d4                op_code_cb_case0x78
+                0x0000000008986f7c                op_code_cb_case0x33
+                0x00000000089846a8                op_code_cb_case0xEE
+                0x0000000008984cc0                op_code_cb_case0x9B
+                0x000000000898c088                op_code_normal_case0xCA
+                0x0000000008984810                op_code_cb_case0xF6
+                0x000000000898cc14                cpu_get_ram_bank
+                0x000000000898bc40                op_code_normal_case0x19
+                0x000000000898a374                op_code_normal_case0x93
+                0x0000000008986a70                op_code_cb_case0x2F
+                0x00000000089893a8                op_code_normal_case0x31
+                0x0000000008983b24                op_code_cb_case0xC0
+                0x0000000008987d5c                op_code_normal_case0x41
+                0x000000000898b5f0                op_code_normal_case0x1C
+                0x000000000898bea0                op_code_normal_case0x2F
+                0x000000000898678c                op_code_cb_case0x27
+                0x0000000008983d18                op_code_cb_case0xDC
+                0x0000000008984ba8                op_code_cb_case0x8B
+                0x000000000898c0d4                op_code_normal_case0xD2
+                0x000000000898bd24                op_code_normal_case0x23
+                0x000000000898c9d0                op_code_normal_case0xC0
+                0x000000000898b8fc                op_code_normal_case0x15
+                0x0000000008987e24                op_code_normal_case0x50
+                0x0000000008982a58                cpu_irq_check
+                0x0000000008982e04                op_code_cb_case0x54
+                0x0000000008983314                op_code_cb_case0x73
+                0x0000000008988d2c                op_code_normal_case0x75
+                0x000000000898bbfc                op_code_normal_case0x09
+                0x0000000008983de0                op_code_cb_case0xE8
+                0x0000000008984c5c                op_code_cb_case0x95
+                0x000000000898bd10                op_code_normal_case0x13
+                0x0000000008983764                op_code_cb_case0x5E
+                0x0000000008989df4                op_code_normal_case0x86
+                0x0000000008982bc4                op_code_cb_case0x47
+                0x0000000008985b20                op_code_cb_case0x04
+                0x0000000008987fe4                op_code_normal_case0x7A
+                0x0000000008989d18                op_code_normal_case0xC6
+                0x0000000008983bb0                op_code_cb_case0xC8
+                0x0000000008984edc                op_code_cb_case0xBA
+                0x0000000008983ef8                op_code_cb_case0xF8
+                0x0000000008989f5c                op_code_normal_case0x8A
+                0x000000000898cab4                op_code_normal_case0xD8
+                0x0000000008983e58                op_code_cb_case0xEF
+                0x0000000008984cd4                op_code_cb_case0x9C
+                0x00000000089831c4                op_code_cb_case0x6B
+                0x0000000008983da4                op_code_cb_case0xE4
+                0x0000000008984d88                op_code_cb_case0xA7
+                0x0000000008984c0c                op_code_cb_case0x91
+                0x0000000008986a40                op_code_cb_case0x2D
+                0x000000000898b2e0                op_code_normal_case0xBC
+                0x0000000008984108                op_code_cb_case0xCE
+                0x0000000008987ef4                op_code_normal_case0x60
+                0x0000000008982e34                op_code_cb_case0x55
+                0x0000000008986030                op_code_cb_case0x10
+                0x000000000898c834                op_code_normal_case0xCF
+                0x00000000089858fc                op_code_cb_case0xBE
+                0x0000000008986470                op_code_cb_case0x1D
+                0x0000000008983404                op_code_cb_case0x79
+                0x0000000008986fa8                op_code_cb_case0x34
+                0x000000000898b53c                op_code_normal_case0x04
+                0x0000000008987dcc                op_code_normal_case0x49
+                0x0000000008983ea8                op_code_cb_case0xF3
+                0x0000000008984eb4                op_code_cb_case0xB8
+                0x000000000898afc8                op_code_normal_case0xB3
+                0x00000000089871fc                op_code_normal_case0x10
+                0x000000000898a7e8                op_code_normal_case0x9D
+                0x000000000898c904                op_code_normal_case0xEF
+                0x0000000008985b80                op_code_cb_case0x07
+                0x0000000008982ad4                op_code_cb_case0x41
+                0x000000000898acf0                op_code_normal_case0xA8
+                0x000000000898a1b4                op_code_normal_case0x8E
+                0x000000000898aad8                op_code_normal_case0xA3
+                0x0000000008987ebc                op_code_normal_case0x5B
+                0x000000000898a738                op_code_normal_case0x9B
+                0x0000000008983f58                op_code_cb_case0xFC
+                0x0000000008982c24                op_code_cb_case0x49
+                0x0000000008985bb0                op_code_cb_case0x06
+                0x0000000008989440                op_code_normal_case0xE5
+                0x0000000008984e50                op_code_cb_case0xB2
+                0x0000000008987d8c                op_code_normal_case0x44
+                0x0000000008988374                op_code_normal_case0x2E
+                0x0000000008989a04                op_code_normal_case0xF1
+                0x0000000008989c24                op_code_normal_case0x83
+                0x0000000008982f84                op_code_cb_case0x5D
+                0x000000000898b1c0                op_code_normal_case0xB8
+                0x0000000008986aa0                op_code_cb_case0x2E
+                0x00000000089887d0                op_code_normal_case0x6E
+                0x0000000008983434                op_code_cb_case0x7A
+                0x00000000089819e8                op_code_normal_case0x76
+                0x0000000008984c98                op_code_cb_case0x99
+                0x0000000008983224                op_code_cb_case0x6D
+                0x00000000089869b0                op_code_cb_case0x2A
+                0x0000000008983d68                op_code_cb_case0xE1
+                0x0000000008984d60                op_code_cb_case0xA4
+                0x000000000898841c                op_code_normal_case0x3E
+                0x000000000898bff0                op_code_normal_case0x1F
+                0x000000000898a40c                op_code_normal_case0x95
+                0x000000000898b578                op_code_normal_case0x0C
+                0x0000000008982104                cpu_reset
+                0x0000000008983e6c                op_code_cb_case0xF0
+                0x0000000008984e8c                op_code_cb_case0xB5
+                0x00000000089813f4                cpu_read_direct_ord
+                0x0000000008982bf4                op_code_cb_case0x48
+                0x0000000008985b50                op_code_cb_case0x05
+                0x000000000898bed8                op_code_normal_case0x37
+                0x0000000008983b88                op_code_cb_case0xC5
+                0x000000000898ca1c                op_code_normal_case0xC8
+                0x000000000898af5c                op_code_normal_case0xB0
+                0x0000000008988004                op_code_normal_case0x7C
+                0x0000000008988b84                op_code_normal_case0x73
+                0x00000000089839a4                op_code_cb_case0x76
+                0x0000000008986f24                op_code_cb_case0x31
+                0x00000000089816c8                cpu_irq_process
+                0x000000000898bfc8                op_code_normal_case0x17
+                0x0000000008987e7c                op_code_normal_case0x57
+                0x0000000008987f24                op_code_normal_case0x63
+                0x000000000898b370                op_code_normal_case0xBF
+                0x0000000008988560                op_code_normal_case0x4E
+                0x000000000898ba64                op_code_normal_case0x35
+                0x0000000008983164                op_code_cb_case0x69
+                0x00000000089867b8                op_code_cb_case0x26
+                0x0000000008983d04                op_code_cb_case0xDB
+                0x0000000008984b94                op_code_cb_case0x8A
+                0x0000000008983db8                op_code_cb_case0xE5
+                0x0000000008984d9c                op_code_cb_case0xA8
+                0x0000000008984c20                op_code_cb_case0x92
+                0x0000000008984be4                op_code_cb_case0x8F
+                0x000000000898c018                op_code_normal_case0xC3
+                0x000000000898a328                op_code_normal_case0x92
+                0x000000000898a0cc                op_code_normal_case0xCE
+                0x000000000898b6e0                op_code_normal_case0x34
+                0x000000000898cbfc                cpu_get_oam
+                0x0000000008987f5c                op_code_normal_case0x68
+                0x000000000898a884                op_code_normal_case0xDE
+                0x0000000008986438                op_code_cb_case0x1C
+                0x000000000898791c                op_code_normal_case0xEA
+                0x000000000898adc8                op_code_normal_case0xAF
+                0x0000000008984b80                op_code_cb_case0x89
+                0x0000000008984270                op_code_cb_case0xD6
+                0x0000000008984b44                op_code_cb_case0x85
+                0x0000000008986358                op_code_cb_case0x18
+                0x0000000008989414                op_code_normal_case0xD5
+                0x00000000089874b4                op_code_normal_case0x32
+                0x0000000008984dec                op_code_cb_case0xAC
+                0x0000000008983254                op_code_cb_case0x6F
+                0x0000000008986a10                op_code_cb_case0x2C
+                0x0000000008986980                op_code_cb_case0x29
+                0x0000000008983074                op_code_cb_case0x63
+                0x0000000008986684                op_code_cb_case0x20
+                0x0000000008982e64                op_code_cb_case0x57
+                0x00000000089860a0                op_code_cb_case0x12
+                0x000000000898bd9c                op_code_normal_case0x27
+                0x0000000008989170                op_code_normal_case0x02
+                0x0000000008982884                cpu_write
+                0x0000000008983c50                op_code_cb_case0xD1
+                0x0000000008984ae0                op_code_cb_case0x80
+                0x0000000008987be8                op_code_normal_case0xF8
+                0x00000000089832b4                op_code_cb_case0x71
+                0x0000000008987dac                op_code_normal_case0x47
+                0x0000000008986c74                op_code_cb_case0x39
+                0x0000000008984540                op_code_cb_case0xE6
+                0x0000000008984db0                op_code_cb_case0xA9
+                0x0000000008984c34                op_code_cb_case0x93
+                0x0000000008983014                op_code_cb_case0x61
+                0x000000000898a290                op_code_normal_case0x90
+                0x0000000008983824                op_code_cb_case0x66
+                0x0000000008986708                op_code_cb_case0x23
+                0x0000000008987f8c                op_code_normal_case0x6B
+                0x000000000898b010                op_code_normal_case0xB5
+                0x000000000898a978                op_code_normal_case0x9E
+                0x000000000898af80                op_code_normal_case0xB1
+                0x00000000089880d4                op_code_normal_case0x0E
+                0x00000000089834f4                op_code_cb_case0x7F
+                0x0000000008986c9c                op_code_cb_case0x3A
+                0x0000000008987ed4                op_code_normal_case0x5D
+                0x000000000898cb00                op_code_normal_case0xCB
+                0x0000000008987fd4                op_code_normal_case0x79
+                0x0000000008983cf0                op_code_cb_case0xDA
+                0x000000000898ab28                op_code_normal_case0xA5
+                0x0000000008989ff4                op_code_normal_case0x8C
+                0x000000000898a08c                op_code_normal_case0x8F
+                0x0000000008982ef4                op_code_cb_case0x5A
+                0x000000000898b464                op_code_normal_case0xBE
+                0x0000000008983c00                op_code_cb_case0xCC
+                0x0000000008983bd8                op_code_cb_case0xCA
+                0x0000000008982fb4                op_code_cb_case0x5F
+                0x00000000089863c8                op_code_cb_case0x1A
+                0x0000000008983f40                op_code_cb_case0xFB
+                0x0000000008983fa0                op_code_cb_case0xC6
+                0x000000000898ab74                op_code_normal_case0xE6
+                0x0000000008983b4c                op_code_cb_case0xC2
+                0x0000000008988908                op_code_normal_case0x70
+                0x000000000898bd74                op_code_normal_case0x2B
+                0x0000000008984c70                op_code_cb_case0x97
+                0x0000000008984ce8                op_code_cb_case0x9D
+                0x0000000008982d14                op_code_cb_case0x4F
+                0x0000000008985e08                op_code_cb_case0x0C
+                0x0000000008987fc4                op_code_normal_case0x78
+                0x000000000898ca68                op_code_normal_case0xD0
+                0x0000000008989f10                op_code_normal_case0x89
+                0x000000000898a840                op_code_normal_case0x9F
+                0x000000000898c6c0                op_code_normal_case0xCC
+                0x0000000008982c84                op_code_cb_case0x4B
+                0x000000000898761c                op_code_normal_case0xE0
+                0x00000000089827d0                cpu_write_direct
+                0x0000000008983374                op_code_cb_case0x75
+                0x0000000008986ef8                op_code_cb_case0x30
+                0x000000000898bec0                op_code_normal_case0x3F
+                0x00000000089885fc                op_code_normal_case0x56
+                0x0000000008983cc8                op_code_cb_case0xD8
+                0x0000000008984b58                op_code_cb_case0x87
+                0x0000000008987e6c                op_code_normal_case0x55
+                0x000000000898a46c                op_code_normal_case0xD6
+                0x000000000898bcb8                op_code_normal_case0x39
+                0x000000000898cbf0                cpu_get_ram
+                0x0000000008989348                op_code_normal_case0x11
+                0x0000000008987404                op_code_normal_case0x3A
+                0x000000000898c8d0                op_code_normal_case0xE7
+                0x000000000898bf84                op_code_normal_case0x07
+                0x000000000898b8b4                op_code_normal_case0x0D
+                0x0000000008982568                writew
+                0x0000000008989ba4                op_code_normal_case0x81
+                0x0000000008988698                op_code_normal_case0x5E
+                0x0000000008983d54                op_code_cb_case0xE0
+                0x0000000008984d4c                op_code_cb_case0xA3
+                0x000000000898ac38                op_code_normal_case0xA6
+                0x0000000008982f24                op_code_cb_case0x5B
+                0x000000000898a2dc                op_code_normal_case0x91
+                0x0000000008982428                readw
+                0x0000000008982b94                op_code_cb_case0x45
+                0x0000000008985ac0                op_code_cb_case0x02
+                0x0000000008983f70                op_code_cb_case0xFD
+                0x0000000008987f4c                op_code_normal_case0x67
+                0x0000000008984f04                op_code_cb_case0xBC
+                0x0000000008987d6c                op_code_normal_case0x42
+                0x000000000898b668                op_code_normal_case0x2C
+                0x0000000008987e4c                op_code_normal_case0x53
+                0x000000000898c96c                op_code_normal_case0xFF
+                0x0000000008986d64                op_code_cb_case0x3E
+                0x00000000089898b8                op_code_normal_case0xE1
+                0x000000000898aa88                op_code_normal_case0xA1
+                0x000000000898702c                op_code_cb_case0x36
+                0x0000000008983e44                op_code_cb_case0xED
+                0x0000000008984cac                op_code_cb_case0x9A
+                0x0000000008989244                op_code_normal_case0x12
+                0x0000000008989620                op_code_normal_case0xC1
+                0x000000000898cc3c                cpu_get_clock
+                0x000000000898ad80                op_code_normal_case0xAC
+                0x00000000089882cc                op_code_normal_case0x26
+                0x0000000008983b60                op_code_cb_case0xC3
+                0x0000000008987ca0                op_code_normal_case0xFA
+                0x0000000008982b34                op_code_cb_case0x43
+                0x0000000008985a60                op_code_cb_case0x00
+                0x0000000008983284                op_code_cb_case0x70
+                0x000000000898c120                op_code_normal_case0xDA
+                0x0000000008983cb4                op_code_cb_case0xD7
+                0x0000000008984f40                op_code_cb_case0x86
+                0x000000000898cc60                cpu_get_c_regs
+                0x0000000008982ce4                op_code_cb_case0x4D
+                0x0000000008985da8                op_code_cb_case0x0A
+                0x0000000008982aa4                op_code_cb_case0x40
+                0x0000000008983ed0                op_code_cb_case0xF5
+                0x000000000898c868                op_code_normal_case0xD7
+                0x0000000008984e28                op_code_cb_case0xB0
+                0x00000000089843d8                op_code_cb_case0xDE
+                0x0000000008984bd0                op_code_cb_case0x8D
+                0x0000000008982e94                op_code_cb_case0x58
+                0x00000000089860d8                op_code_cb_case0x13
+                0x000000000898b98c                op_code_normal_case0x25
+                0x0000000008986180                op_code_cb_case0x17
+                0x0000000008983c64                op_code_cb_case0xD2
+                0x0000000008984af4                op_code_cb_case0x81
+                0x0000000008987ff4                op_code_normal_case0x7B
+                0x0000000008983f28                op_code_cb_case0xFA
+                0x0000000008984f2c                op_code_cb_case0xBF
+                0x000000000898c804                op_code_normal_case0xC7
+                0x0000000008982b64                op_code_cb_case0x44
+                0x0000000008985a90                op_code_cb_case0x01
+                0x0000000008983494                op_code_cb_case0x7C
+                0x000000000898bd88                op_code_normal_case0x3B
+                0x0000000008986cec                op_code_cb_case0x3C
+                0x000000000898c938                op_code_normal_case0xF7
+                0x0000000008987e44                op_code_normal_case0x52
+                0x000000000898b380                op_code_normal_case0xFE
+                0x0000000008987e04                op_code_normal_case0x4D
+                0x0000000008989378                op_code_normal_case0x21
+                0x0000000008981bb4                cpu_exec
+                0x00000000089864e0                op_code_cb_case0x1E
+                0x000000000898a554                op_code_normal_case0x96
+                0x00000000089864a8                op_code_cb_case0x1F
+                0x00000000089889dc                op_code_normal_case0x71
+                0x0000000008983b9c                op_code_cb_case0xC7
+                0x000000000898223c                cpu_save_state
+                0x000000000898a040                op_code_normal_case0x8D
+                0x0000000008984dc4                op_code_cb_case0xAA
+                0x0000000008984dd8                op_code_cb_case0xAB
+                0x0000000008984d10                op_code_cb_case0xA0
+                0x0000000008987f7c                op_code_normal_case0x6A
+                0x0000000008987000                op_code_cb_case0x37
+                0x000000000898ad38                op_code_normal_case0xAA
+                0x000000000898a790                op_code_normal_case0x9C
+                0x000000000898ad14                op_code_normal_case0xA9
+                0x000000000898cc08                cpu_get_stack
+                0x000000000898c17c                op_code_normal_case0x18
+                0x0000000008982dd4                op_code_cb_case0x53
+                0x0000000008982cb4                op_code_cb_case0x4C
+                0x0000000008983b38                op_code_cb_case0xC1
+                0x000000000898bd38                op_code_normal_case0x33
+                0x00000000089834c4                op_code_cb_case0x7D
+                0x0000000008988c58                op_code_normal_case0x74
+                0x0000000008983194                op_code_cb_case0x6A
+                0x000000000898b944                op_code_normal_case0x1D
+                0x0000000008987ee4                op_code_normal_case0x5F
+                0x000000000898afec                op_code_normal_case0xB4
+                0x0000000008983104                op_code_cb_case0x67
+                0x0000000008986734                op_code_cb_case0x24
+                0x0000000008983d2c                op_code_cb_case0xDD
+                0x0000000008984bbc                op_code_cb_case0x8C
+                0x000000000898ab50                op_code_normal_case0xA7
+                0x00000000089827a4                op_readw
+                0x0000000008989ca4                op_code_normal_case0x85
+                0x0000000008986d14                op_code_cb_case0x3D
+                0x0000000008983c3c                op_code_cb_case0xD0
+                0x000000000898a6e0                op_code_normal_case0x9A
+                0x000000000898cc54                cpu_get_halt
+                0x0000000008987f6c                op_code_normal_case0x69
+                0x000000000898b9d4                op_code_normal_case0x2D
+                0x0000000008984e3c                op_code_cb_case0xB1
+                0x000000000898a688                op_code_normal_case0x99
+                0x000000000898c240                op_code_normal_case0x20
+                0x000000000898cc48                cpu_get_speed
+                0x000000000898c428                op_code_normal_case0x30
+                0x0000000008987788                op_code_normal_case0xE2
+                0x000000000898bcfc                op_code_normal_case0x03
+                0x0000000008987dbc                op_code_normal_case0x48
+                0x0000000008983e80                op_code_cb_case0xF1
+                0x0000000008985798                op_code_cb_case0xB6
+                0x0000000008984cfc                op_code_cb_case0x9F
+                0x0000000008988224                op_code_normal_case0x1E
+                0x0000000008984d38                op_code_cb_case0xA2
+                0x00000000089830d4                op_code_cb_case0x65
+                0x00000000089866dc                op_code_cb_case0x22
+                0x000000000898976c                op_code_normal_case0xD1
+                0x0000000008982ec4                op_code_cb_case0x59
+                0x0000000008986110                op_code_cb_case0x14
+                0x000000000898c334                op_code_normal_case0x28
+                0x0000000008983f10                op_code_cb_case0xF9
+                0x000000000898bfa4                op_code_normal_case0x0F
+                0x000000000898cc20                cpu_set_ram_bank
+                0x0000000008983044                op_code_cb_case0x62
+                0x000000000898aea8                op_code_normal_case0xAE
+                0x0000000008984d24                op_code_cb_case0xA1
+                0x0000000008989c64                op_code_normal_case0x84
+                0x000000000898ba1c                op_code_normal_case0x3D
+                0x000000000898b62c                op_code_normal_case0x24
+                0x000000000898c72c                op_code_normal_case0xD4
+                0x00000000089822ec                cpu_restore_state
+                0x000000000898c89c                op_code_normal_case0xDF
+                0x0000000008986fd4                op_code_cb_case0x35
+                0x0000000008983e30                op_code_cb_case0xEC
+                0x0000000008984e14                op_code_cb_case0xAF
+                0x00000000089829dc                cpu_irq
+                0x00000000089871c0                op_code_normal_case0x08
+                0x0000000008983ebc                op_code_cb_case0xF4
+                0x0000000008984ec8                op_code_cb_case0xB9
+                0x0000000008988e00                op_code_normal_case0x77
+                0x0000000008987eac                op_code_normal_case0x5A
+                0x000000000898cbe4                cpu_get_vram
+                0x0000000008983c78                op_code_cb_case0xD3
+                0x0000000008984b08                op_code_cb_case0x82
+                0x0000000008985d78                op_code_cb_case0x09
+                0x0000000008987dd4                op_code_normal_case0x4A
+                0x0000000008987d7c                op_code_normal_case0x43
+                0x000000000898ad5c                op_code_normal_case0xAB
+                0x0000000008984c84                op_code_cb_case0x98
+                0x0000000008985e98                op_code_cb_case0x0E
+                0x0000000008983134                op_code_cb_case0x68
+                0x0000000008986760                op_code_cb_case0x25
+                0x0000000008981560                cpu_write_direct_ord
+                0x0000000008983c14                op_code_cb_case0xCD
+                0x000000000898c51c                op_code_normal_case0x38
+                0x000000000898aab0                op_code_normal_case0xA2
+                0x0000000008987b44                op_code_normal_case0xF2
+                0x000000000898946c                op_code_normal_case0xF5
+                0x000000000898c16c                op_code_normal_case0xE9
+                0x0000000008983d7c                op_code_cb_case0xE2
+                0x0000000008984d74                op_code_cb_case0xA5
+                0x0000000008987e5c                op_code_normal_case0x54
+                0x0000000008987fb4                op_code_normal_case0x6F
+                0x0000000008983ca0                op_code_cb_case0xD5
+                0x0000000008984b30                op_code_cb_case0x84
+                0x00000000089861b8                op_code_cb_case0x16
+                0x000000000898b208                op_code_normal_case0xB9
+                0x0000000008982da4                op_code_cb_case0x52
+                0x0000000008988ed4                op_code_normal_case0x36
+                0x000000000898bf3c                op_code_normal_case0xFB
+                0x0000000008988024                op_code_normal_case0x7F
+                0x00000000089832e4                op_code_cb_case0x72
+                0x00000000089838e4                op_code_cb_case0x6E
+                0x00000000089869e0                op_code_cb_case0x2B
+                0x0000000008989ec4                op_code_normal_case0x88
+ .text          0x000000000898ddb8      0xc80 obj/libngp.a(neopop.o)
+                0x000000000898ddb8                build_mirror_pat
+                0x000000000898def4                system_comms_poll
+                0x000000000898defc                system_comms_write
+                0x000000000898dee4                system_message
+                0x000000000898deec                system_comms_read
+                0x000000000898de10                NGP_Setup
+ .text          0x000000000898ea38      0x388 obj/libngp.a(rom.o)
+                0x000000000898edb8                rom_unload
+                0x000000000898ec84                rom_loaded
+                0x000000000898ea38                rom_hack
+ .text          0x000000000898edc0      0x83c obj/libngp.a(sound.o)
+                0x000000000898f0d4                sound_update
+                0x000000000898efa4                sound_init
+                0x000000000898f1b0                dac_update
+                0x000000000898edc0                WriteSoundChip
+                0x000000000898f148                dac_write
+ .text          0x000000000898f5fc     0xec6c obj/libngp.a(interpret.o)
+                0x000000000898fb24                TLCS900h_cycle
+                0x000000000898fa6c                TLCS900h_interpret
+                0x000000000898f7f4                push32
+                0x000000000898f73c                fetch32
+                0x000000000898f794                push8
+                0x000000000898f854                pop8
+                0x000000000898f90c                setStatusIFF
+                0x000000000898f5fc                ngp_make_map
+                0x000000000898f878                pop16
+                0x000000000898f8a8                pop32
+                0x000000000898f92c                reset_registers
+                0x000000000898f6b0                fetch16
+                0x000000000898f6f0                fetch24
+                0x000000000898f7b8                push16
+                0x000000000898f8f0                statusIFF
+                0x000000000898f67c                fetch8
+ .text          0x000000000899e268     0x7a6c obj/libngp.a(Z80n.o)
+                0x000000000899fb70                IntZ80
+                0x000000000899fd1c                ResetZ80
+                0x000000000899e268                ExecZ80withCycle
+                0x000000000899fd6c                ExecZ80
+ .text          0x00000000089a5cd4      0x1f4 obj/libngp.a(Z80_interface.o)
+                0x00000000089a5e08                Z80_nmi
+                0x00000000089a5e2c                Z80_irq
+                0x00000000089a5cd4                WrZ80
+                0x00000000089a5e90                Z80_getReg
+                0x00000000089a5e60                Z80_reset
+                0x00000000089a5dcc                RdZ80
+                0x00000000089a5eac                Z80_setReg
+ .text          0x00000000089a5ec8      0x158 obj/libngp.a(bios.o)
+                0x00000000089a5f04                update_rtc
+                0x00000000089a5ec8                ngp_reset
+                0x00000000089a5f0c                bios_install
+ .text          0x00000000089a6020      0x8bc obj/libngp.a(biosHLE.o)
+                0x00000000089a6020                iBIOSHLE
+ .text          0x00000000089a68dc      0xa58 obj/libngp.a(dma.o)
+                0x00000000089a7174                dmaStoreW
+                0x00000000089a72a0                dmaLoadW
+                0x00000000089a6f68                dmaLoadL
+                0x00000000089a6e78                dmaStoreL
+                0x00000000089a70dc                dmaStoreB
+                0x00000000089a68dc                DMA_update
+                0x00000000089a720c                dmaLoadB
+                0x00000000089a7058                reset_dma
+ .text          0x00000000089a7334       0x18 obj/libngp.a(flash.o)
+                0x00000000089a733c                flash_write
+                0x00000000089a7344                flash_commit
+                0x00000000089a7334                flash_read
+ .text          0x00000000089a734c      0x2b4 obj/libngp.a(interrupt.o)
+                0x00000000089a756c                gfx_draw
+                0x00000000089a75ac                reset_timers
+                0x00000000089a74f8                interrupt
+                0x00000000089a734c                gfx_hint
+ .text          0x00000000089a7600      0x930 obj/libngp.a(mem.o)
+                0x00000000089a7e98                storeW
+                0x00000000089a7dcc                loadB
+                0x00000000089a7720                translate_address_write
+                0x00000000089a7600                translate_address_read
+                0x00000000089a7e5c                storeB
+                0x00000000089a7e18                loadL
+                0x00000000089a78f4                post_write
+                0x00000000089a7d84                ngp_memmap
+                0x00000000089a7edc                storeL
+                0x00000000089a7dec                loadW
+                0x00000000089a7aa8                reset_memory
+ .text          0x00000000089a7f30      0x88c obj/libngp.a(gfx_scanline_colour.o)
+                0x00000000089a7f30                gfx_draw_scanline_colour
+ .text          0x00000000089a87bc     0x12e8 obj/libngp.a(gfx_scanline_mono.o)
+                0x00000000089a87bc                gfx_draw_scanline_mono
+ .text          0x00000000089a9aa4     0x46f8 obj/libswan.a(ws.o)
+                0x00000000089a9f7c                cpu_writeport
+                0x00000000089aa7e8                cpu_writemem20
+                0x00000000089a9c34                cpu_readport
+                0x00000000089aab94                cpu_writeport2
+                0x00000000089aac94                SWAN_Setup
+                0x00000000089a9aa4                ws_set_colour_scheme
+                0x00000000089aabdc                ws_int_check
+                0x00000000089aac70                isWonderSwanRotate
+ .text          0x00000000089ae19c    0x11da8 obj/libswan.a(nec.o)
+                0x00000000089b6070                nec_setPipeline
+                0x00000000089b6090                nec_exit
+                0x00000000089ae30c                nec_int
+                0x00000000089ae19c                nec_reset
+                0x00000000089b613c                nec_use_count
+                0x00000000089b6054                nec_getRegPtr
+                0x00000000089ae4a0                nec_interrupt
+                0x00000000089b6068                nec_getRegSize
+                0x00000000089b5d4c                nec_get_reg
+                0x00000000089b6098                nec_execute
+                0x00000000089b5ee8                nec_set_reg
+ .text          0x00000000089bff44     0x4cac obj/libpce.a(pce.o)
+                0x00000000089c1c3c                TimerInt
+                0x00000000089bff44                _Wr6502
+                0x00000000089c19a0                IO_read
+                0x00000000089c1d00                _Rd6502
+                0x00000000089c1d50                VDC_d_write
+                0x00000000089c1cb4                bank_set
+                0x00000000089c1738                IO_write
+                0x00000000089c1d8c                PCE_Setup
+                0x00000000089c0020                Loop6502
+ .text          0x00000000089c4bf0     0x1aec obj/libpce.a(cd.o)
+                0x00000000089c5a2c                ACD_write
+                0x00000000089c5500                pce_cd_read_sector
+                0x00000000089c5eb4                ACD_read
+                0x00000000089c4ed4                CD_read
+                0x00000000089c50dc                fill_cd_info
+                0x00000000089c61bc                cd_toc_read
+                0x00000000089c6664                ACD_init
+                0x00000000089c597c                issue_ADPCM_dma
+                0x00000000089c6528                CD_init
+                0x00000000089c55fc                nb_sect2msf
+                0x00000000089c668c                cd_track_search
+                0x00000000089c6530                read_sector_CD
+                0x00000000089c65d8                lba2msf
+                0x00000000089c5954                pce_cd_set_sector_address
+                0x00000000089c4bf0                CD_write
+                0x00000000089c638c                cd_test_read
+                0x00000000089c55cc                msf2nb_sect
+                0x00000000089c5664                pce_cd_handle_command
+ .text          0x00000000089c66dc     0x5d2c obj/libpce.a(m6502.o)
+                0x00000000089cc1b8                Op6502
+                0x00000000089c66dc                Int6502
+                0x00000000089c6844                Run6502
+                0x00000000089cc1e0                Op6502w
+                0x00000000089cc22c                RdRAMw
+                0x00000000089cc24c                Reset6502
+ *(.gnu.warning)
+ *(.mips16.fn.*)
+ *(.mips16.call.*)
+
+.fini
+ *(.fini)
+                0x00000000089cc408                PROVIDE (__etext, .)
+                0x00000000089cc408                PROVIDE (_etext, .)
+                0x00000000089cc408                PROVIDE (etext, .)
+
+.rodata         0x00000000089cc408    0x2f7a4
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00000000089cc408       0x20 obj/callmain.o
+ .rodata        0x00000000089cc428       0x10 obj/malloc.o
+ .rodata.entrytable
+                0x00000000089cc438       0x14 obj/startup.o
+ .rodata.stubmodulename
+                0x00000000089cc44c       0xe0 obj/startup.o
+ .rodata.stubidtable
+                0x00000000089cc52c      0x274 obj/startup.o
+ .rodata        0x00000000089cc7a0       0x80 obj/filer.o
+                0x00000000089cc7a0                stExtentions
+ .rodata        0x00000000089cc820    0x22930 obj/font.o
+                0x00000000089cd788                zenkaku_font10
+ .rodata        0x00000000089ef150      0x6f8 obj/main.o
+ .rodata        0x00000000089ef848       0x30 obj/psp_main.o
+ .rodata        0x00000000089ef878       0x1c obj/hal.o
+ *fill*         0x00000000089ef894        0x4 00
+ .rodata        0x00000000089ef898       0x10 obj/hal_sound.o
+ .rodata        0x00000000089ef8a8       0x58 libs/libunzip.a(unzip.o)
+                0x00000000089ef8a8                unz_copyright
+ .rodata        0x00000000089ef900     0x2000 libs/libz.a(crc32.o)
+ .rodata        0x00000000089f1900      0xb08 libs/libz.a(inflate.o)
+ .rodata        0x00000000089f2408      0x130 libs/libz.a(inftrees.o)
+                0x00000000089f2408                inflate_copyright
+ .rodata        0x00000000089f2538       0x58 libs/libz.a(inffast.o)
+ .rodata        0x00000000089f2590       0xb8 libs/libz.a(zutil.o)
+                0x00000000089f2620                z_errmsg
+ .rodata        0x00000000089f2648      0x688 obj/liblynx.a(System.o)
+ .rodata        0x00000000089f2cd0      0x400 obj/liblynx.a(C65c02.o)
+ .rodata        0x00000000089f30d0       0x20 obj/libsms.a(sn76496.o)
+ .rodata        0x00000000089f30f0      0x314 obj/libsms.a(emu2413.o)
+ .rodata        0x00000000089f3404      0x4cc obj/libsms.a(z80.o)
+ .rodata        0x00000000089f38d0     0x13b0 obj/libnes.a(nes.o)
+                0x00000000089f38d0                NES_preset_palette
+ .rodata        0x00000000089f4c80      0xf40 obj/libnes.a(nes_mapper.o)
+ .rodata        0x00000000089f5bc0       0x78 obj/libnes.a(nes_rom.o)
+ .rodata        0x00000000089f5c38      0x880 obj/libnes.a(snss.o)
+ .rodata        0x00000000089f64b8      0x400 obj/libnes.a(nes_crc32.o)
+                0x00000000089f64b8                crctable
+ .rodata        0x00000000089f68b8      0x138 obj/libnes.a(libsnss.o)
+ .rodata        0x00000000089f69f0       0x20 obj/libnes.a(nes_ppu.o)
+ .rodata        0x00000000089f6a10       0x38 obj/libnes.a(nes_fme7.o)
+ .rodata        0x00000000089f6a48       0x78 obj/libnes.a(nes_mmc5.o)
+ .rodata        0x00000000089f6ac0       0x20 obj/libnes.a(nes_n106.o)
+ .rodata        0x00000000089f6ae0       0xfc obj/libnes.a(nes_vrc7.o)
+ .rodata        0x00000000089f6bdc      0x1a0 obj/libnes.a(nes_fds.o)
+ *fill*         0x00000000089f6d7c        0x4 00
+ .rodata        0x00000000089f6d80      0x188 obj/libnes.a(nes_apu.o)
+                0x00000000089f6e00                dmc_clocks
+ .rodata        0x00000000089f6f08       0x30 obj/libgbc.a(gb.o)
+ .rodata        0x00000000089f6f38      0x450 obj/libgbc.a(lcd.o)
+                0x00000000089f6f38                m_pal16
+ .rodata        0x00000000089f7388      0x168 obj/libgbc.a(sgb.o)
+                0x00000000089f7388                tile_signed_trans
+ .rodata        0x00000000089f74f0       0xc8 obj/libgbc.a(gbrom.o)
+ .rodata        0x00000000089f75b8       0x2c obj/libgbc.a(mbc.o)
+ *fill*         0x00000000089f75e4        0x4 00
+ .rodata        0x00000000089f75e8      0x540 obj/libgbc.a(gb_apu.o)
+ .rodata        0x00000000089f7b28       0xa0 obj/libgbc.a(cpu.o)
+ .rodata        0x00000000089f7bc8       0xd8 obj/libngp.a(rom.o)
+ .rodata        0x00000000089f7ca0       0x20 obj/libngp.a(sound.o)
+ .rodata        0x00000000089f7cc0       0x9c obj/libngp.a(interpret.o)
+ .rodata        0x00000000089f7d5c     0x1ba8 obj/libngp.a(Z80n.o)
+ *fill*         0x00000000089f9904        0x4 00
+ .rodata        0x00000000089f9908       0x70 obj/libngp.a(bios.o)
+ .rodata        0x00000000089f9978       0x28 obj/libngp.a(biosHLE.o)
+ .rodata        0x00000000089f99a0      0x100 obj/libngp.a(dma.o)
+ .rodata        0x00000000089f9aa0       0x10 obj/libngp.a(mem.o)
+ .rodata        0x00000000089f9ab0      0x858 obj/libswan.a(ws.o)
+ .rodata        0x00000000089fa308     0x1420 obj/libswan.a(nec.o)
+ .rodata        0x00000000089fb728      0x130 obj/libpce.a(pce.o)
+ .rodata        0x00000000089fb858      0x15c obj/libpce.a(cd.o)
+ .rodata        0x00000000089fb9b4      0x1f8 obj/libpce.a(m6502.o)
+
+.rodata1
+ *(.rodata1)
+
+.sdata2
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+
+.sbss2
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+                0x00000000089fbc2c                . = (ALIGN (0x80) + (. & 0x7f))
+                0x00000000089fbc2c                . = ALIGN (0x4)
+                0x00000000089fbc2c                PROVIDE (__preinit_array_start, .)
+
+.preinit_array
+ *(.preinit_array)
+                0x00000000089fbc2c                PROVIDE (__preinit_array_end, .)
+                0x00000000089fbc2c                PROVIDE (__init_array_start, .)
+
+.init_array
+ *(.init_array)
+                0x00000000089fbc2c                PROVIDE (__init_array_end, .)
+                0x00000000089fbc2c                PROVIDE (__fini_array_start, .)
+
+.fini_array
+ *(.fini_array)
+                0x00000000089fbc2c                PROVIDE (__fini_array_end, .)
+
+.data           0x00000000089fbc40    0x877d0
+                0x00000000089fbc40                _fdata = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000089fbc40      0x200 obj/filer.o
+                0x00000000089fbc40                LastPath
+ .data          0x00000000089fbe40     0x1858 obj/main.o
+                0x00000000089fd3b0                menulist_load
+                0x00000000089fd3d0                menulist_pce
+                0x00000000089fd3f0                menulist_nes
+                0x00000000089fd410                menulist_ngp
+                0x00000000089fbeb0                g_KeyCfg
+                0x00000000089fd400                menulist_gbc
+                0x00000000089fbe40                menu_frame_string
+                0x00000000089fd430                RomName
+                0x00000000089fd3c0                menulist_save
+                0x00000000089fd3a0                menulist_psp
+                0x00000000089fd420                menulist_sms
+                0x00000000089fd390                menulist_main
+                0x00000000089fd3e0                menulist_wse
+ *fill*         0x00000000089fd698       0x28 00
+ .data          0x00000000089fd6c0      0x400 obj/pg.o
+ .data          0x00000000089fdac0      0x208 obj/common.o
+                0x00000000089fdac0                ext_list
+ .data          0x00000000089fdcc8       0x10 obj/hal.o
+ .data          0x00000000089fdcd8       0x68 obj/liblynx.a(System.o)
+ .data          0x00000000089fdd40      0x100 obj/liblynx.a(C65c02.o)
+ .data          0x00000000089fde40       0x10 obj/libsms.a(render.o)
+                0x00000000089fde40                atex
+ .data          0x00000000089fde50      0x400 obj/libsms.a(vdp.o)
+                0x00000000089fde50                vcnt
+                0x00000000089fe050                hcnt
+ .data          0x00000000089fe250    0x62e10 obj/libsms.a(emu2413.o)
+ .data          0x0000000008a61060     0x2e20 obj/libsms.a(z80.o)
+ .data          0x0000000008a63e80      0x400 obj/libnes.a(nes6502.o)
+ .data          0x0000000008a64280       0x20 obj/libnes.a(nes_apu_wrapper.o)
+                0x0000000008a64280                g_APU
+ .data          0x0000000008a642a0      0x318 obj/libnes.a(nes_fme7.o)
+                0x0000000008a64598                fme7_ext
+ .data          0x0000000008a645b8       0xb8 obj/libnes.a(nes_mmc5.o)
+                0x0000000008a64650                mmc5_ext
+ .data          0x0000000008a64670       0x50 obj/libnes.a(nes_n106.o)
+                0x0000000008a646a0                n106_ext
+ .data          0x0000000008a646c0       0x38 obj/libnes.a(nes_vrc6.o)
+                0x0000000008a646d8                vrc6_ext
+ .data          0x0000000008a646f8     0x28f0 obj/libnes.a(nes_vrc7.o)
+                0x0000000008a66fc8                vrc7_ext
+ .data          0x0000000008a66fe8       0x60 obj/libnes.a(nes_fds.o)
+                0x0000000008a67028                fds_nesp_ext
+ .data          0x0000000008a67048     0x4108 obj/libnes.a(nes_exsound.o)
+ .data          0x0000000008a6b150       0x40 obj/libgbc.a(mbc.o)
+ .data          0x0000000008a6b190    0x10000 obj/libgbc.a(gb_apu.o)
+                0x0000000008a6b190                _mrand7
+                0x0000000008a73190                _mrand15
+ .data          0x0000000008a7b190     0x1a00 obj/libgbc.a(cpu.o)
+                0x0000000008a7bd90                cpu_io_write_JmpTbl
+                0x0000000008a7c790                op_code_normal_JmpTbl
+                0x0000000008a7c390                op_code_cb_JmpTbl
+                0x0000000008a7b990                cpu_io_read_JmpTbl
+ .data          0x0000000008a7cb90       0x40 obj/libngp.a(sound.o)
+ .data          0x0000000008a7cbd0     0x3180 obj/libngp.a(interpret.o)
+ .data          0x0000000008a7fd50     0x1700 obj/libngp.a(Z80n.o)
+ .data          0x0000000008a81450      0x800 obj/libngp.a(bios.o)
+ .data          0x0000000008a81c50      0x100 obj/libngp.a(mem.o)
+ .data          0x0000000008a81d50      0x440 obj/libswan.a(ws.o)
+                0x0000000008a82150                pWsRomMap
+ .data          0x0000000008a82190      0x700 obj/libswan.a(nec.o)
+                0x0000000008a82190                nec_instruction
+ .data          0x0000000008a82890       0x80 obj/libpce.a(pce.o)
+ .data          0x0000000008a82910      0x400 obj/libpce.a(cd.o)
+                0x0000000008a82910                cd_last_read
+ .data          0x0000000008a82d10      0x200 obj/libpce.a(cd_dat.o)
+                0x0000000008a82d10                binbcd
+                0x0000000008a82e10                bcdbin
+ .data          0x0000000008a82f10      0x500 obj/libpce.a(m6502.o)
+
+.lib.ent        0x0000000008a83410       0x10
+ .lib.ent       0x0000000008a83410       0x10 obj/startup.o
+
+.lib.ent.btm    0x0000000008a83420        0x4
+ .lib.ent.btm   0x0000000008a83420        0x4 obj/startup.o
+
+.lib.stub       0x0000000008a83424       0xf0
+ .lib.stub      0x0000000008a83424       0xf0 obj/startup.o
+
+.lib.stub.btm   0x0000000008a83514        0x4
+ .lib.stub.btm  0x0000000008a83514        0x4 obj/startup.o
+
+.xodata.sceModuleInfo
+                0x0000000008a83520       0x40
+ .xodata.sceModuleInfo
+                0x0000000008a83520       0x40 obj/startup.o
+
+.data1
+ *(.data1)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.dynamic
+ *(.dynamic)
+
+.ctors
+ *crtbegin*.o(.ctors)
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin*.o(.dtors)
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+                0x0000000008a8b550                _gp = (ALIGN (0x10) + 0x7ff0)
+
+.got
+ *(.got.plt)
+ *(.got)
+
+.lit8
+ *(.lit8)
+
+.lit4
+ *(.lit4)
+
+.sdata          0x0000000008a83560      0x890
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000008a83560        0x4 obj/callmain.o
+                0x0000000008a83560                malloc_size
+ .sdata         0x0000000008a83564        0xc obj/malloc.o
+                0x0000000008a83564                errno
+ .sdata         0x0000000008a83570       0x90 obj/filer.o
+ .sdata         0x0000000008a83600      0x2f8 obj/main.o
+                0x0000000008a837c8                rom_state
+                0x0000000008a837c4                g_pCoreHdl
+                0x0000000008a837c0                g_hardware
+                0x0000000008a83600                flag_loadstate
+                0x0000000008a837b4                thumbnail_mode
+                0x0000000008a837f0                tmp_buffer
+                0x0000000008a837b0                flag_MakeThumbnail
+                0x0000000008a837b8                menu_bgbuffer
+ .sdata         0x0000000008a838f8       0x4c obj/mp3.o
+                0x0000000008a83904                mp3_pthread
+                0x0000000008a83900                mp3_dthread
+ .sdata         0x0000000008a83944       0x10 obj/pg.o
+ .sdata         0x0000000008a83954       0x10 obj/psp_main.o
+                0x0000000008a83958                flag_psp
+ .sdata         0x0000000008a83964       0x18 obj/text.o
+ *fill*         0x0000000008a8397c        0x4 00
+ .sdata         0x0000000008a83980       0x38 obj/common.o
+                0x0000000008a83994                memsts_bufsiz
+                0x0000000008a8399c                memsts_seek
+                0x0000000008a839a0                memsts_length
+                0x0000000008a83980                emu_handler_count
+                0x0000000008a83984                ext_list_count
+                0x0000000008a83998                memsts_buffer
+ .sdata         0x0000000008a839b8        0x8 obj/file_io.o
+ .sdata         0x0000000008a839c0       0x48 obj/hal.o
+                0x0000000008a839c8                hal_fps
+                0x0000000008a839cc                fb_thumbnail
+ .sdata         0x0000000008a83a08       0x10 obj/hal_cd.o
+ .sdata         0x0000000008a83a18       0x30 obj/hal_sound.o
+                0x0000000008a83a28                unlk_wr
+                0x0000000008a83a40                snd_volume
+                0x0000000008a83a2c                unlk_rd
+                0x0000000008a83a30                snd_vsync_skip
+                0x0000000008a83a1c                snd_rd
+                0x0000000008a83a20                over_wr
+                0x0000000008a83a18                snd_wr
+                0x0000000008a83a38                snd_thread
+                0x0000000008a83a44                snd_sleep
+                0x0000000008a83a24                over_rd
+                0x0000000008a83a3c                snd_handle
+                0x0000000008a83a34                snd_frame_skip
+ .sdata         0x0000000008a83a48        0x4 libs/libunzip.a(zlibInterface.o)
+                0x0000000008a83a48                ___zlib_pfuncCallback
+ *fill*         0x0000000008a83a4c        0x4 00
+ .sdata         0x0000000008a83a50        0x8 libs/libunzip.a(unzip.o)
+ .sdata         0x0000000008a83a58        0x8 libs/libunzip.a(zlibFileMemory.o)
+                0x0000000008a83a58                ___zlibInFile
+ .sdata         0x0000000008a83a60       0x18 libs/libunzip.a(ioapi.o)
+ .sdata         0x0000000008a83a78       0x10 libs/libz.a(zutil.o)
+ .sdata         0x0000000008a83a88       0x58 obj/liblynx.a(System.o)
+                0x0000000008a83a8c                gSystemIRQ
+                0x0000000008a83a94                gAudioLastUpdateCycle
+                0x0000000008a83a90                gAudioBufferPointer
+                0x0000000008a83a88                gSystemCycleCount
+ .sdata         0x0000000008a83ae0       0x10 obj/libsms.a(sms.o)
+ .sdata         0x0000000008a83af0        0x1 obj/libsms.a(system.o)
+ *fill*         0x0000000008a83af1        0x3 00
+ .sdata         0x0000000008a83af4       0x10 obj/libsms.a(z80.o)
+                0x0000000008a83af4                Z80_Context
+                0x0000000008a83af8                after_EI
+ *fill*         0x0000000008a83b04        0x4 00
+ .sdata         0x0000000008a83b08       0x10 obj/libnes.a(nes.o)
+                0x0000000008a83b08                pg_NES
+                0x0000000008a83b0c                nes_diskbios
+ .sdata         0x0000000008a83b18       0x10 obj/libnes.a(nes_mapper.o)
+                0x0000000008a83b18                pg_NESmapper
+ .sdata         0x0000000008a83b28       0x28 obj/libnes.a(nes_rom.o)
+                0x0000000008a83b2c                g_nes_dbNum
+                0x0000000008a83b28                pg_ROM
+ .sdata         0x0000000008a83b50       0x38 obj/libnes.a(libsnss.o)
+ .sdata         0x0000000008a83b88        0x8 obj/libnes.a(nes6502.o)
+ .sdata         0x0000000008a83b90        0x8 obj/libnes.a(nes_vrc7.o)
+ .sdata         0x0000000008a83b98       0x10 obj/libnes.a(nes_fds.o)
+ .sdata         0x0000000008a83ba8        0xc obj/libnes.a(nes_apu.o)
+ *fill*         0x0000000008a83bb4        0x4 00
+ .sdata         0x0000000008a83bb8       0x20 obj/libgbc.a(gb.o)
+                0x0000000008a83bb8                vframe
+ .sdata         0x0000000008a83bd8       0x18 obj/libgbc.a(lcd.o)
+ .sdata         0x0000000008a83bf0       0x4c obj/libgbc.a(sgb.o)
+                0x0000000008a83c04                sgb_command
+                0x0000000008a83bf4                CYCLES_SGB_TIMEOUT
+                0x0000000008a83c0c                sgb_attraction_mode
+                0x0000000008a83c30                sgb_nextcontrol
+                0x0000000008a83c34                sgb_readingcontrol
+                0x0000000008a83c28                sgb_multiplayer
+                0x0000000008a83c00                col0_used
+                0x0000000008a83bf8                sgb_ft
+                0x0000000008a83c38                sgb_mask
+                0x0000000008a83c10                sgb_file_transfer
+                0x0000000008a83bf0                cycles_SGB
+                0x0000000008a83c1c                packets_received
+                0x0000000008a83c24                sgb_index
+                0x0000000008a83c2c                sgb_fourplayers
+                0x0000000008a83c20                sgb_state
+                0x0000000008a83c08                sgb_CGB_support
+                0x0000000008a83bfc                border_uploaded
+                0x0000000008a83c18                bits_received
+                0x0000000008a83c14                bit_received
+ .sdata         0x0000000008a83c3c        0x4 obj/libgbc.a(mbc.o)
+                0x0000000008a83c3c                mbc_write
+ .sdata         0x0000000008a83c40       0x38 obj/libgbc.a(gb_apu.o)
+ .sdata         0x0000000008a83c78       0x10 obj/libgbc.a(cheat.o)
+                0x0000000008a83c80                cheats
+                0x0000000008a83c78                cheat_map
+                0x0000000008a83c7c                cheat_map_n
+                0x0000000008a83c84                cheat_enable
+ .sdata         0x0000000008a83c88        0x4 obj/libgbc.a(cpu.o)
+                0x0000000008a83c88                rp_fd
+ *fill*         0x0000000008a83c8c        0x4 00
+ .sdata         0x0000000008a83c90       0x28 obj/libngp.a(neopop.o)
+                0x0000000008a83c94                ngp_c
+                0x0000000008a83c98                ngp_m
+                0x0000000008a83c90                ngp_frameskip
+ .sdata         0x0000000008a83cb8        0x8 obj/libngp.a(rom.o)
+ .sdata         0x0000000008a83cc0       0x20 obj/libngp.a(interpret.o)
+ .sdata         0x0000000008a83ce0        0x4 obj/libngp.a(interrupt.o)
+                0x0000000008a83ce0                h_int
+ *fill*         0x0000000008a83ce4        0x4 00
+ .sdata         0x0000000008a83ce8       0x28 obj/libngp.a(mem.o)
+                0x0000000008a83cf8                memory_flash_error
+                0x0000000008a83ce8                eepromStatusEnable
+                0x0000000008a83cf0                debug_mask_memory_error_messages
+                0x0000000008a83d00                r_null
+                0x0000000008a83cfc                memory_flash_command
+                0x0000000008a83cf4                memory_unlock_flash_write
+                0x0000000008a83cec                debug_abort_memory
+                0x0000000008a83d08                w_null
+ .sdata         0x0000000008a83d10       0x60 obj/libswan.a(ws.o)
+                0x0000000008a83d20                rtcDataRegisterReadCount
+ .sdata         0x0000000008a83d70       0x10 obj/libswan.a(nec.o)
+ .sdata         0x0000000008a83d80       0x40 obj/libpce.a(pce.o)
+                0x0000000008a83d80                scanlines_per_frame
+                0x0000000008a83d90                skip_frame
+ .sdata         0x0000000008a83dc0       0x30 obj/libpce.a(cd.o)
+                0x0000000008a83dc8                packed_iso_filesize
+                0x0000000008a83dc2                cd_port_1801
+                0x0000000008a83dd0                first_sector
+                0x0000000008a83dc1                cd_port_1800
+                0x0000000008a83dc4                cd_port_1804
+                0x0000000008a83dc3                cd_port_1802
+                0x0000000008a83dc0                nb_max_track
+                0x0000000008a83dc6                pce_cd_adpcm_trans_done
+                0x0000000008a83dc5                cd_port_180b
+                0x0000000008a83df0                _edata = .
+                0x0000000008a83df0                PROVIDE (edata, .)
+                0x0000000008a83df0                __bss_start = .
+                0x0000000008a83df0                _fbss = .
+
+.sbss           0x0000000008a83df0      0x314
+                0x0000000008a83df0                PROVIDE (__sbss_start, .)
+                0x0000000008a83df0                PROVIDE (___sbss_start, .)
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000008a83df0        0x4 obj/filer.o
+ .sbss          0x0000000008a83df4        0xc obj/pg.o
+ .sbss          0x0000000008a83e00       0x90 obj/liblynx.a(System.o)
+ .sbss          0x0000000008a83e90       0x3c obj/liblynx.a(C65c02.o)
+ .sbss          0x0000000008a83ecc       0x10 obj/libsms.a(emu2413.o)
+ .sbss          0x0000000008a83edc        0x4 obj/libsms.a(z80.o)
+ .sbss          0x0000000008a83ee0        0x8 obj/libnes.a(nes.o)
+ .sbss          0x0000000008a83ee8        0x4 obj/libngp.a(sound.o)
+ .sbss          0x0000000008a83eec        0x2 obj/libngp.a(flash.o)
+ *fill*         0x0000000008a83eee        0x2 00
+ .sbss          0x0000000008a83ef0        0x4 obj/libngp.a(mem.o)
+ .sbss          0x0000000008a83ef4       0x10 obj/libswan.a(ws.o)
+ .sbss          0x0000000008a83f04        0xc obj/libswan.a(nec.o)
+ .sbss          0x0000000008a83f10        0x4 obj/libpce.a(pce.o)
+ .sbss          0x0000000008a83f14        0x4 obj/libpce.a(m6502.o)
+ *(.scommon)
+ .scommon       0x0000000008a83f18        0x4 libs/libunzip.a(zlibFileMemory.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a83f18                ___zlibAllocBuffPointer
+ .scommon       0x0000000008a83f1c       0x1c obj/libsms.a(render.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a83f1c                linebuf
+                0x0000000008a83f20                vp_hstart
+                0x0000000008a83f24                vp_hend
+                0x0000000008a83f28                vp_vstart
+                0x0000000008a83f2c                is_vram_dirty
+                0x0000000008a83f30                render_bg
+                0x0000000008a83f34                vp_vend
+ .scommon       0x0000000008a83f38       0x10 obj/libsms.a(system.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a83f38                opll
+                0x0000000008a83f40                cart
+ .scommon       0x0000000008a83f48        0x4 obj/libsms.a(z80.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a83f48                z80_ICount
+ *fill*         0x0000000008a83f4c        0x4 00
+ .scommon       0x0000000008a83f50       0x34 obj/libgbc.a(gb.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a83f50                hook_ext
+                0x0000000008a83f54                now_sensor_x
+                0x0000000008a83f58                now_gb_mode
+                0x0000000008a83f5c                re_render
+                0x0000000008a83f60                now_frame
+                0x0000000008a83f64                pad_state
+                0x0000000008a83f68                use_gba
+                0x0000000008a83f6c                skip_buf
+                0x0000000008a83f70                now_sensor_y
+                0x0000000008a83f78                hook_proc
+                0x0000000008a83f80                skip
+ .scommon       0x0000000008a83f84       0x10 obj/libgbc.a(lcd.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a83f84                now_win_line
+                0x0000000008a83f88                mul
+                0x0000000008a83f8c                sprite_count
+                0x0000000008a83f90                n_mpal16
+ .scommon       0x0000000008a83f94       0x18 obj/libgbc.a(gbrom.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a83f94                first_page
+                0x0000000008a83f98                dat
+                0x0000000008a83f9c                org_gbtype
+                0x0000000008a83fa0                sgb_mode
+                0x0000000008a83fa4                sram
+                0x0000000008a83fa8                b_loaded
+ .scommon       0x0000000008a83fac        0xc obj/libgbc.a(gb_apu.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a83fac                snd_que_count
+                0x0000000008a83fb0                snd_b_lowpass
+                0x0000000008a83fb4                snd_bef_clock
+ .scommon       0x0000000008a83fb8        0x4 obj/libgbc.a(cheat.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a83fb8                nCheats
+ .scommon       0x0000000008a83fbc       0x8c obj/libgbc.a(cpu.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a83fbc                _ff72
+                0x0000000008a83fc0                b_dma_first
+                0x0000000008a83fc4                dma_dest_bank
+                0x0000000008a83fc8                c_regs_I
+                0x0000000008a83fcc                total_clock
+                0x0000000008a83fd0                _ff73
+                0x0000000008a83fd4                sys_clock
+                0x0000000008a83fd8                c_regs_SP
+                0x0000000008a83fdc                dma_src_bank
+                0x0000000008a83fe0                tmp_clocks
+                0x0000000008a83fe4                _ff75
+                0x0000000008a83fe8                last_int
+                0x0000000008a83fec                rp_data
+                0x0000000008a83ff0                b_trace
+                0x0000000008a83ff4                ram_bank
+                0x0000000008a83ff8                div_clock
+                0x0000000008a83ffc                vram_bank
+                0x0000000008a84000                dma_executing
+                0x0000000008a84004                _ff6c
+                0x0000000008a84006                c_regs_HL
+                0x0000000008a84008                speed_change
+                0x0000000008a8400c                _ff74
+                0x0000000008a84010                int_invoke_next
+                0x0000000008a84014                rp_time
+                0x0000000008a84018                dma_rest
+                0x0000000008a8401c                c_regs_PC
+                0x0000000008a84020                gdma_rest
+                0x0000000008a84024                speed
+                0x0000000008a84028                int_disable_next
+                0x0000000008a8402c                seri_occer
+                0x0000000008a84030                halt
+                0x0000000008a84034                c_regs_AF
+                0x0000000008a84036                c_regs_BC
+                0x0000000008a84038                dma_dest
+                0x0000000008a8403c                c_regs_DE
+                0x0000000008a84040                rest_clock
+                0x0000000008a84044                dma_src
+ .scommon       0x0000000008a84048        0x4 obj/libngp.a(neopop.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a84048                system_colour
+ .scommon       0x0000000008a8404c        0x4 obj/libngp.a(rom.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a8404c                rom_header
+ .scommon       0x0000000008a84050       0x10 obj/libngp.a(sound.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a84050                mute
+                0x0000000008a84054                dacBufferRead
+                0x0000000008a84058                dacBufferCount
+                0x0000000008a8405c                dacBufferWrite
+ .scommon       0x0000000008a84060       0x24 obj/libngp.a(interpret.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a84060                ex_gprMapW
+                0x0000000008a84064                ex_regCodeMapW
+                0x0000000008a84068                ex_regCodeMapB
+                0x0000000008a8406c                ex_regCodeMapL
+                0x0000000008a84070                ex_gprMapB
+                0x0000000008a84074                cycles
+                0x0000000008a84078                pc32
+                0x0000000008a8407c                sr
+                0x0000000008a84080                ex_gprMapL
+ .scommon       0x0000000008a84084        0xc obj/libngp.a(interrupt.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a84084                timer0
+                0x0000000008a84088                timer2
+                0x0000000008a8408c                cfb_scanline
+ .scommon       0x0000000008a84090        0x1 obj/libswan.a(nec.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a84090                seg_prefix
+ *fill*         0x0000000008a84091        0x3 00
+ .scommon       0x0000000008a84094       0x38 obj/libpce.a(pce.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a84094                pIO
+                0x0000000008a84098                pCache
+                0x0000000008a8409c                pACD
+                0x0000000008a840a0                TimerCount
+                0x0000000008a840a4                PCE_WRAM
+                0x0000000008a840a8                populus
+                0x0000000008a840ac                Country
+                0x0000000008a840b0                ROM_size
+                0x0000000008a840b4                PCE_RAM
+                0x0000000008a840b8                BaseClock
+                0x0000000008a840bc                pCD
+                0x0000000008a840c0                IPeriod
+                0x0000000008a840c4                TimerPeriod
+                0x0000000008a840c8                ROM
+ *fill*         0x0000000008a840cc        0x4 00
+ .scommon       0x0000000008a840d0       0x34 obj/libpce.a(cd.o)
+                                          0x0 (size before relaxing)
+                0x0000000008a840d0                cd_read_buffer
+                0x0000000008a840d8                pce_cd_sectoraddress
+                0x0000000008a840db                pce_cd_curcmd
+                0x0000000008a840e0                pce_cd_temp_stop
+                0x0000000008a840e4                cd_fade
+                0x0000000008a840e8                pce_cd_dirinfo
+                0x0000000008a840ec                cd_sectorcnt
+                0x0000000008a840f0                pce_cd_temp_play
+                0x0000000008a840f4                pce_cd_cmdcnt
+                0x0000000008a840f8                pce_cd_temp_dirinfo
+                0x0000000008a840fc                pce_cd_read_datacnt
+                0x0000000008a84100                pce_cd_sectoraddy
+                0x0000000008a84104                PROVIDE (__sbss_end, .)
+                0x0000000008a84104                PROVIDE (___sbss_end, .)
+
+.bss            0x0000000008a84108  0x1498550
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000008a84108      0x1e0 obj/malloc.o
+ .bss           0x0000000008a842e8    0x58000 obj/filer.o
+ .bss           0x0000000008adc2e8      0x900 obj/main.o
+ .bss           0x0000000008adcbe8    0x2d030 obj/mp3.o
+ .bss           0x0000000008b09c18      0x300 obj/pg.o
+ .bss           0x0000000008b09f18     0x1800 obj/common.o
+ .bss           0x0000000008b0b718      0x200 obj/hal_cd.o
+ .bss           0x0000000008b0b918   0x102498 obj/liblynx.a(System.o)
+ .bss           0x0000000008c0ddb0      0x800 obj/liblynx.a(C65c02.o)
+ .bss           0x0000000008c0e5b0       0x30 obj/libsms.a(sms.o)
+ .bss           0x0000000008c0e5e0     0x17f0 obj/libsms.a(emu2413.o)
+ .bss           0x0000000008c0fdd0      0x590 obj/libsms.a(z80.o)
+ .bss           0x0000000008c10360       0x30 obj/libnes.a(nes.o)
+ .bss           0x0000000008c10390     0x2038 obj/libnes.a(nes6502.o)
+ .bss           0x0000000008c123c8       0x70 obj/libnes.a(nes_fme7.o)
+ .bss           0x0000000008c12438       0x78 obj/libnes.a(nes_mmc5.o)
+ .bss           0x0000000008c124b0      0x3d8 obj/libnes.a(nes_vrc7.o)
+ .bss           0x0000000008c12888      0x2c0 obj/libnes.a(nes_apu.o)
+ .bss           0x0000000008c12b48    0x10000 obj/libngp.a(interpret.o)
+ .bss           0x0000000008c22b48      0x800 obj/libngp.a(flash.o)
+ .bss           0x0000000008c23348      0x230 obj/libswan.a(ws.o)
+ .bss           0x0000000008c23578     0x1150 obj/libswan.a(nec.o)
+ .bss           0x0000000008c246c8      0x140 obj/libpce.a(pce.o)
+ *(COMMON)
+ COMMON         0x0000000008c24808  0x1080000 obj/callmain.o
+                                          0x0 (size before relaxing)
+                0x0000000008c24808                malloc_mem
+ COMMON         0x0000000009ca4808      0x300 obj/filer.o
+                                          0x0 (size before relaxing)
+                0x0000000009ca4808                FilerMsg
+                0x0000000009ca4908                FileName
+ COMMON         0x0000000009ca4b08      0x20b obj/main.o
+                                          0x0 (size before relaxing)
+                0x0000000009ca4b08                eConf
+ *fill*         0x0000000009ca4d13        0x5 00
+ COMMON         0x0000000009ca4d18     0x5040 obj/common.o
+                                          0x0 (size before relaxing)
+                0x0000000009ca4d18                halSnd
+                0x0000000009ca8d58                emu_handler
+ COMMON         0x0000000009ca9d58    0x14000 obj/hal_sound.o
+                                          0x0 (size before relaxing)
+                0x0000000009ca9d58                sndbuffer
+ COMMON         0x0000000009cbdd58    0x10000 libs/libunzip.a(zlibFileMemory.o)
+                                          0x0 (size before relaxing)
+                0x0000000009cbdd58                ___zlibAllocBuff
+ COMMON         0x0000000009ccdd58    0x916b4 obj/liblynx.a(System.o)
+                                          0x0 (size before relaxing)
+                0x0000000009ccdd58                gAudioBuffer
+                0x0000000009ccf2e0                mikie
+                0x0000000009ccf3e0                mMemoryHandlers
+                0x0000000009d4f3e0                mRam_Data
+                0x0000000009d5f3e0                fb_format
+ *fill*         0x0000000009d5f40c        0x4 00
+ COMMON         0x0000000009d5f410     0xc00c obj/libsms.a(sms.o)
+                                          0x0 (size before relaxing)
+                0x0000000009d5f410                sms
+ *fill*         0x0000000009d6b41c        0x4 00
+ COMMON         0x0000000009d6b420    0x30340 obj/libsms.a(render.o)
+                                          0x0 (size before relaxing)
+                0x0000000009d6b420                pixel
+                0x0000000009d6b460                internal_buffer
+                0x0000000009d6b560                cache
+                0x0000000009d8b560                lut
+                0x0000000009d9b560                vram_dirty
+ COMMON         0x0000000009d9b760     0x406c obj/libsms.a(vdp.o)
+                                          0x0 (size before relaxing)
+                0x0000000009d9b760                vdp
+ *fill*         0x0000000009d9f7cc        0x4 00
+ COMMON         0x0000000009d9f7d0      0x10c obj/libsms.a(system.o)
+                                          0x0 (size before relaxing)
+                0x0000000009d9f7d0                bitmap
+                0x0000000009d9f868                input
+                0x0000000009d9f878                ym2413
+                0x0000000009d9f8b8                snd
+ *fill*         0x0000000009d9f8dc        0x4 00
+ COMMON         0x0000000009d9f8e0      0x2e0 obj/libsms.a(sn76496.o)
+                                          0x0 (size before relaxing)
+                0x0000000009d9f8e0                sn
+ COMMON         0x0000000009d9fbc0       0x40 obj/libsms.a(z80.o)
+                                          0x0 (size before relaxing)
+                0x0000000009d9fbc0                cpu_readmap
+                0x0000000009d9fbe0                cpu_writemap
+ COMMON         0x0000000009d9fc00      0x200 obj/libnes.a(nes.o)
+                                          0x0 (size before relaxing)
+                0x0000000009d9fc00                g_Pal
+ COMMON         0x0000000009d9fe00       0x20 obj/libnes.a(nes_config.o)
+                                          0x0 (size before relaxing)
+                0x0000000009d9fe00                g_NESConfig
+ COMMON         0x0000000009d9fe20    0x17700 obj/libnes.a(nes_rom.o)
+                                          0x0 (size before relaxing)
+                0x0000000009d9fe20                g_nes_db
+ COMMON         0x0000000009db7520     0xb9fc obj/libnes.a(libsnss.o)
+                                          0x0 (size before relaxing)
+                0x0000000009db7520                g_SNSSObj
+ *fill*         0x0000000009dc2f1c        0x4 00
+ COMMON         0x0000000009dc2f20     0x94d4 obj/libnes.a(nes_ppu.o)
+                                          0x0 (size before relaxing)
+                0x0000000009dc2f20                g_PPU
+ *fill*         0x0000000009dcc3f4        0x4 00
+ COMMON         0x0000000009dcc3f8      0x56c obj/libnes.a(nes_n106.o)
+                                          0x0 (size before relaxing)
+                0x0000000009dcc3f8                n106_sound
+ *fill*         0x0000000009dcc964        0x4 00
+ COMMON         0x0000000009dcc968       0x44 obj/libnes.a(nes_vrc6.o)
+                                          0x0 (size before relaxing)
+                0x0000000009dcc968                vrc6_sound
+ *fill*         0x0000000009dcc9ac        0x4 00
+ COMMON         0x0000000009dcc9b0      0x1ec obj/libnes.a(nes_fds.o)
+                                          0x0 (size before relaxing)
+                0x0000000009dcc9b0                FDS_SOUND
+ *fill*         0x0000000009dccb9c        0x4 00
+ COMMON         0x0000000009dccba0    0x1818c obj/libnes.a(nes_apu.o)
+                                          0x0 (size before relaxing)
+                0x0000000009dccba0                g_apu_t
+ *fill*         0x0000000009de4d2c        0x4 00
+ COMMON         0x0000000009de4d30       0x25 obj/libgbc.a(gb.o)
+                                          0x0 (size before relaxing)
+                0x0000000009de4d30                cg_regs
+                0x0000000009de4d40                g_regs
+ *fill*         0x0000000009de4d55        0x3 00
+ COMMON         0x0000000009de4d58       0xe0 obj/libgbc.a(lcd.o)
+                                          0x0 (size before relaxing)
+                0x0000000009de4d58                ztbls
+                0x0000000009de4da8                layer_enable
+                0x0000000009de4db8                col_pal
+ COMMON         0x0000000009de4e38    0x24a60 obj/libgbc.a(sgb.o)
+                                          0x0 (size before relaxing)
+                0x0000000009de4e38                sgb_palette_memory
+                0x0000000009de5e38                sgb_buffer
+                0x0000000009de5ea8                sgb_border
+                0x0000000009de66a8                sgb_palette
+                0x0000000009de67a8                sgb_borderchar
+                0x0000000009de87a8                sgb_screenbuffer
+                0x0000000009de97e8                sgb_ATF_list
+                0x0000000009ded730                sgb_border_buffer
+                0x0000000009e09730                sgb_ATF
+ COMMON         0x0000000009e09898       0x24 obj/libgbc.a(gbrom.o)
+                                          0x0 (size before relaxing)
+                0x0000000009e09898                info
+ *fill*         0x0000000009e098bc        0x4 00
+ COMMON         0x0000000009e098c0       0x3c obj/libgbc.a(mbc.o)
+                                          0x0 (size before relaxing)
+                0x0000000009e098c0                gb_str
+ *fill*         0x0000000009e098fc        0x4 00
+ COMMON         0x0000000009e09900    0x803e0 obj/libgbc.a(gb_apu.o)
+                                          0x0 (size before relaxing)
+                0x0000000009e09900                snd_stat_cpy
+                0x0000000009e099f0                snd_stat_tmp
+                0x0000000009e09ae0                snd_stat
+                0x0000000009e09bd0                snd_b_enable
+                0x0000000009e09be0                snd_mem
+                0x0000000009e09ce0                snd_write_que
+ COMMON         0x0000000009e89ce0     0xc358 obj/libgbc.a(cpu.o)
+                                          0x0 (size before relaxing)
+                0x0000000009e89ce0                gb2z80
+                0x0000000009e89de0                oam
+                0x0000000009e89e80                spare_oam
+                0x0000000009e89e98                z802gb
+                0x0000000009e89f98                stack
+                0x0000000009e8a018                ext_mem
+                0x0000000009e8a028                _c_regs
+                0x0000000009e8a038                ram
+                0x0000000009e92038                vram
+ COMMON         0x0000000009e96038    0x20e60 obj/libngp.a(neopop.o)
+                                          0x0 (size before relaxing)
+                0x0000000009e96038                b8
+                0x0000000009e96318                buf
+                0x0000000009e96e98                mir_pat
+ COMMON         0x0000000009eb6e98      0x118 obj/libngp.a(rom.o)
+                                          0x0 (size before relaxing)
+                0x0000000009eb6e98                rom
+ COMMON         0x0000000009eb6fb0    0x400dc obj/libngp.a(sound.o)
+                                          0x0 (size before relaxing)
+                0x0000000009eb6fb0                dacBufferL
+                0x0000000009ef6fb0                noiseChip
+                0x0000000009ef7020                toneChip
+ *fill*         0x0000000009ef708c        0x4 00
+ COMMON         0x0000000009ef7090    0x10470 obj/libngp.a(interpret.o)
+                                          0x0 (size before relaxing)
+                0x0000000009ef7090                gpr
+                0x0000000009ef70a0                ng_map
+                0x0000000009ef74a0                tl9h
+                0x0000000009ef74c0                gprBank
+                0x0000000009ef7500                map_null
+ COMMON         0x0000000009f07500       0x34 obj/libngp.a(Z80_interface.o)
+                                          0x0 (size before relaxing)
+                0x0000000009f07500                Z80_regs
+ *fill*         0x0000000009f07534        0x4 00
+ COMMON         0x0000000009f07538      0x100 obj/libngp.a(interrupt.o)
+                                          0x0 (size before relaxing)
+                0x0000000009f07538                zbuffer
+ COMMON         0x0000000009f07638      0x420 obj/libpce.a(pce.o)
+                                          0x0 (size before relaxing)
+                0x0000000009f07638                PCE_ROMMap
+                0x0000000009f07a38                PCE_Page
+ COMMON         0x0000000009f07a58    0x14c00 obj/libpce.a(cd.o)
+                                          0x0 (size before relaxing)
+                0x0000000009f07a58                CD_track
+                0x0000000009f19e58                cd_toc
+                0x0000000009f1a658                cd_sector_buffer
+                0x0000000009f1c658                . = ALIGN (0x4)
+                0x0000000009f1c658                . = ALIGN (0x4)
+                0x0000000009f1c658                _end = .
+                0x0000000009f1c658                PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x5e8
+ *(.comment)
+ .comment       0x0000000000000000       0x12 obj/callmain.o
+ .comment       0x0000000000000012       0x12 obj/malloc.o
+ .comment       0x0000000000000024       0x12 obj/stdlib.o
+ .comment       0x0000000000000036       0x12 obj/string.o
+ .comment       0x0000000000000048       0x12 obj/filer.o
+ .comment       0x000000000000005a       0x12 obj/font.o
+ .comment       0x000000000000006c       0x12 obj/main.o
+ .comment       0x000000000000007e       0x12 obj/mp3.o
+ .comment       0x0000000000000090       0x12 obj/pg.o
+ .comment       0x00000000000000a2       0x12 obj/psp_main.o
+ .comment       0x00000000000000b4       0x12 obj/text.o
+ .comment       0x00000000000000c6       0x12 obj/common.o
+ .comment       0x00000000000000d8       0x12 obj/cstring.o
+ .comment       0x00000000000000ea       0x12 obj/file_io.o
+ .comment       0x00000000000000fc       0x12 obj/zlibpsp.o
+ .comment       0x000000000000010e       0x12 obj/hal.o
+ .comment       0x0000000000000120       0x12 obj/hal_cd.o
+ .comment       0x0000000000000132       0x12 obj/hal_file.o
+ .comment       0x0000000000000144       0x12 obj/hal_sound.o
+ .comment       0x0000000000000156       0x12 libs/libunzip.a(zlibInterface.o)
+ .comment       0x0000000000000168       0x12 libs/libunzip.a(unzip.o)
+ .comment       0x000000000000017a       0x12 libs/libunzip.a(zlibFileMemory.o)
+ .comment       0x000000000000018c       0x12 libs/libunzip.a(ioapi.o)
+ .comment       0x000000000000019e       0x12 libs/libz.a(crc32.o)
+ .comment       0x00000000000001b0       0x12 libs/libz.a(inflate.o)
+ .comment       0x00000000000001c2       0x12 libs/libz.a(inftrees.o)
+ .comment       0x00000000000001d4       0x12 libs/libz.a(inffast.o)
+ .comment       0x00000000000001e6       0x12 libs/libz.a(adler32.o)
+ .comment       0x00000000000001f8       0x12 libs/libz.a(zutil.o)
+ .comment       0x000000000000020a       0x12 obj/liblynx.a(System.o)
+ .comment       0x000000000000021c       0x12 obj/liblynx.a(C65c02.o)
+ .comment       0x000000000000022e       0x12 obj/libsms.a(sms.o)
+ .comment       0x0000000000000240       0x12 obj/libsms.a(render.o)
+ .comment       0x0000000000000252       0x12 obj/libsms.a(vdp.o)
+ .comment       0x0000000000000264       0x12 obj/libsms.a(system.o)
+ .comment       0x0000000000000276       0x12 obj/libsms.a(sn76496.o)
+ .comment       0x0000000000000288       0x12 obj/libsms.a(emu2413.o)
+ .comment       0x000000000000029a       0x12 obj/libsms.a(z80.o)
+ .comment       0x00000000000002ac       0x12 obj/libnes.a(nes.o)
+ .comment       0x00000000000002be       0x12 obj/libnes.a(nes_config.o)
+ .comment       0x00000000000002d0       0x12 obj/libnes.a(nes_mapper.o)
+ .comment       0x00000000000002e2       0x12 obj/libnes.a(nes_rom.o)
+ .comment       0x00000000000002f4       0x12 obj/libnes.a(snss.o)
+ .comment       0x0000000000000306       0x12 obj/libnes.a(nes_crc32.o)
+ .comment       0x0000000000000318       0x12 obj/libnes.a(libsnss.o)
+ .comment       0x000000000000032a       0x12 obj/libnes.a(nes6502.o)
+ .comment       0x000000000000033c       0x12 obj/libnes.a(nes_ppu.o)
+ .comment       0x000000000000034e       0x12 obj/libnes.a(nes_apu_wrapper.o)
+ .comment       0x0000000000000360       0x12 obj/libnes.a(nes_fme7.o)
+ .comment       0x0000000000000372       0x12 obj/libnes.a(nes_mmc5.o)
+ .comment       0x0000000000000384       0x12 obj/libnes.a(nes_n106.o)
+ .comment       0x0000000000000396       0x12 obj/libnes.a(nes_vrc6.o)
+ .comment       0x00000000000003a8       0x12 obj/libnes.a(nes_vrc7.o)
+ .comment       0x00000000000003ba       0x12 obj/libnes.a(nes_fds.o)
+ .comment       0x00000000000003cc       0x12 obj/libnes.a(nes_apu.o)
+ .comment       0x00000000000003de       0x12 obj/libnes.a(nes_exsound.o)
+ .comment       0x00000000000003f0       0x12 obj/libgbc.a(gb.o)
+ .comment       0x0000000000000402       0x12 obj/libgbc.a(lcd.o)
+ .comment       0x0000000000000414       0x12 obj/libgbc.a(sgb.o)
+ .comment       0x0000000000000426       0x12 obj/libgbc.a(gbrom.o)
+ .comment       0x0000000000000438       0x12 obj/libgbc.a(mbc.o)
+ .comment       0x000000000000044a       0x12 obj/libgbc.a(gb_apu.o)
+ .comment       0x000000000000045c       0x12 obj/libgbc.a(cheat.o)
+ .comment       0x000000000000046e       0x12 obj/libgbc.a(cpu.o)
+ .comment       0x0000000000000480       0x12 obj/libngp.a(neopop.o)
+ .comment       0x0000000000000492       0x12 obj/libngp.a(rom.o)
+ .comment       0x00000000000004a4       0x12 obj/libngp.a(sound.o)
+ .comment       0x00000000000004b6       0x12 obj/libngp.a(interpret.o)
+ .comment       0x00000000000004c8       0x12 obj/libngp.a(Z80n.o)
+ .comment       0x00000000000004da       0x12 obj/libngp.a(Z80_interface.o)
+ .comment       0x00000000000004ec       0x12 obj/libngp.a(bios.o)
+ .comment       0x00000000000004fe       0x12 obj/libngp.a(biosHLE.o)
+ .comment       0x0000000000000510       0x12 obj/libngp.a(dma.o)
+ .comment       0x0000000000000522       0x12 obj/libngp.a(flash.o)
+ .comment       0x0000000000000534       0x12 obj/libngp.a(interrupt.o)
+ .comment       0x0000000000000546       0x12 obj/libngp.a(mem.o)
+ .comment       0x0000000000000558       0x12 obj/libngp.a(gfx_scanline_colour.o)
+ .comment       0x000000000000056a       0x12 obj/libngp.a(gfx_scanline_mono.o)
+ .comment       0x000000000000057c       0x12 obj/libswan.a(ws.o)
+ .comment       0x000000000000058e       0x12 obj/libswan.a(nec.o)
+ .comment       0x00000000000005a0       0x12 obj/libpce.a(pce.o)
+ .comment       0x00000000000005b2       0x12 obj/libpce.a(cd.o)
+ .comment       0x00000000000005c4       0x12 obj/libpce.a(cd_dat.o)
+ .comment       0x00000000000005d6       0x12 obj/libpce.a(m6502.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.gptab.sdata
+ *(.gptab.data)
+ *(.gptab.sdata)
+
+.gptab.sbss
+ *(.gptab.bss)
+ *(.gptab.sbss)
+OUTPUT(out elf32-littlemips)
+
+.pdr            0x0000000000000000    0x207c0
+ .pdr           0x0000000000000000       0x20 obj/callmain.o
+ .pdr           0x0000000000000020      0x3a0 obj/malloc.o
+ .pdr           0x00000000000003c0       0xa0 obj/stdlib.o
+ .pdr           0x0000000000000460       0x80 obj/string.o
+ .pdr           0x00000000000004e0       0x20 obj/startup.o
+ .pdr           0x0000000000000500       0xa0 obj/filer.o
+ .pdr           0x00000000000005a0      0x1c0 obj/font.o
+ .pdr           0x0000000000000760      0x340 obj/main.o
+ .pdr           0x0000000000000aa0      0x1a0 obj/mp3.o
+ .pdr           0x0000000000000c40      0x2c0 obj/pg.o
+ .pdr           0x0000000000000f00      0x120 obj/psp_main.o
+ .pdr           0x0000000000001020       0x60 obj/text.o
+ .pdr           0x0000000000001080      0x320 obj/common.o
+ .pdr           0x00000000000013a0      0x280 obj/cstring.o
+ .pdr           0x0000000000001620       0x80 obj/file_io.o
+ .pdr           0x00000000000016a0      0x100 obj/hal.o
+ .pdr           0x00000000000017a0       0xc0 obj/hal_cd.o
+ .pdr           0x0000000000001860      0x100 obj/hal_file.o
+ .pdr           0x0000000000001960      0x1a0 obj/hal_sound.o
+ .pdr           0x0000000000001b00       0x40 libs/libunzip.a(zlibInterface.o)
+ .pdr           0x0000000000001b40      0x360 libs/libunzip.a(unzip.o)
+ .pdr           0x0000000000001ea0      0x220 libs/libunzip.a(zlibFileMemory.o)
+ .pdr           0x00000000000020c0      0x100 libs/libunzip.a(ioapi.o)
+ .pdr           0x00000000000021c0       0xa0 libs/libz.a(crc32.o)
+ .pdr           0x0000000000002260      0x180 libs/libz.a(inflate.o)
+ .pdr           0x00000000000023e0       0x20 libs/libz.a(inftrees.o)
+ .pdr           0x0000000000002400       0x20 libs/libz.a(inffast.o)
+ .pdr           0x0000000000002420       0x40 libs/libz.a(adler32.o)
+ .pdr           0x0000000000002460       0xa0 libs/libz.a(zutil.o)
+ .pdr           0x0000000000002500      0x4e0 obj/liblynx.a(System.o)
+ .pdr           0x00000000000029e0      0x100 obj/liblynx.a(C65c02.o)
+ .pdr           0x0000000000002ae0      0x240 obj/libsms.a(sms.o)
+ .pdr           0x0000000000002d20      0x120 obj/libsms.a(render.o)
+ .pdr           0x0000000000002e40      0x120 obj/libsms.a(vdp.o)
+ .pdr           0x0000000000002f60       0xe0 obj/libsms.a(system.o)
+ .pdr           0x0000000000003040       0xa0 obj/libsms.a(sn76496.o)
+ .pdr           0x00000000000030e0      0x260 obj/libsms.a(emu2413.o)
+ .pdr           0x0000000000003340     0xc200 obj/libsms.a(z80.o)
+ .pdr           0x000000000000f540      0x480 obj/libnes.a(nes.o)
+ .pdr           0x000000000000f9c0       0x80 obj/libnes.a(nes_config.o)
+ .pdr           0x000000000000fa40     0x3b40 obj/libnes.a(nes_mapper.o)
+ .pdr           0x0000000000013580      0x300 obj/libnes.a(nes_rom.o)
+ .pdr           0x0000000000013880       0xc0 obj/libnes.a(snss.o)
+ .pdr           0x0000000000013940       0x40 obj/libnes.a(nes_crc32.o)
+ .pdr           0x0000000000013980      0x1a0 obj/libnes.a(libsnss.o)
+ .pdr           0x0000000000013b20      0x140 obj/libnes.a(nes6502.o)
+ .pdr           0x0000000000013c60      0x220 obj/libnes.a(nes_ppu.o)
+ .pdr           0x0000000000013e80      0x200 obj/libnes.a(nes_apu_wrapper.o)
+ .pdr           0x0000000000014080       0xe0 obj/libnes.a(nes_fme7.o)
+ .pdr           0x0000000000014160       0xa0 obj/libnes.a(nes_mmc5.o)
+ .pdr           0x0000000000014200       0xc0 obj/libnes.a(nes_n106.o)
+ .pdr           0x00000000000142c0       0xc0 obj/libnes.a(nes_vrc6.o)
+ .pdr           0x0000000000014380      0x140 obj/libnes.a(nes_vrc7.o)
+ .pdr           0x00000000000144c0      0x100 obj/libnes.a(nes_fds.o)
+ .pdr           0x00000000000145c0      0x300 obj/libnes.a(nes_apu.o)
+ .pdr           0x00000000000148c0       0x80 obj/libnes.a(nes_exsound.o)
+ .pdr           0x0000000000014940      0x4a0 obj/libgbc.a(gb.o)
+ .pdr           0x0000000000014de0      0x240 obj/libgbc.a(lcd.o)
+ .pdr           0x0000000000015020      0x2e0 obj/libgbc.a(sgb.o)
+ .pdr           0x0000000000015300       0xc0 obj/libgbc.a(gbrom.o)
+ .pdr           0x00000000000153c0      0x260 obj/libgbc.a(mbc.o)
+ .pdr           0x0000000000015620      0x2a0 obj/libgbc.a(gb_apu.o)
+ .pdr           0x00000000000158c0      0x120 obj/libgbc.a(cheat.o)
+ .pdr           0x00000000000159e0     0x5360 obj/libgbc.a(cpu.o)
+ .pdr           0x000000000001ad40      0x1a0 obj/libngp.a(neopop.o)
+ .pdr           0x000000000001aee0       0x60 obj/libngp.a(rom.o)
+ .pdr           0x000000000001af40       0xe0 obj/libngp.a(sound.o)
+ .pdr           0x000000000001b020     0x2260 obj/libngp.a(interpret.o)
+ .pdr           0x000000000001d280      0x140 obj/libngp.a(Z80n.o)
+ .pdr           0x000000000001d3c0       0xe0 obj/libngp.a(Z80_interface.o)
+ .pdr           0x000000000001d4a0       0x60 obj/libngp.a(bios.o)
+ .pdr           0x000000000001d500       0x20 obj/libngp.a(biosHLE.o)
+ .pdr           0x000000000001d520      0x100 obj/libngp.a(dma.o)
+ .pdr           0x000000000001d620       0x60 obj/libngp.a(flash.o)
+ .pdr           0x000000000001d680       0x80 obj/libngp.a(interrupt.o)
+ .pdr           0x000000000001d700      0x160 obj/libngp.a(mem.o)
+ .pdr           0x000000000001d860       0x80 obj/libngp.a(gfx_scanline_colour.o)
+ .pdr           0x000000000001d8e0       0x40 obj/libngp.a(gfx_scanline_mono.o)
+ .pdr           0x000000000001d920      0x380 obj/libswan.a(ws.o)
+ .pdr           0x000000000001dca0     0x2320 obj/libswan.a(nec.o)
+ .pdr           0x000000000001ffc0      0x4e0 obj/libpce.a(pce.o)
+ .pdr           0x00000000000204a0      0x240 obj/libpce.a(cd.o)
+ .pdr           0x00000000000206e0       0xe0 obj/libpce.a(m6502.o)
+
+.mdebug.eabi32  0x0000000000000000        0x0

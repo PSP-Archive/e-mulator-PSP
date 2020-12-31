@@ -1,0 +1,57 @@
+//static void CMikie_ComLynxTxCallback(void (*function)(int data,u32 objref),u32 objref)
+//{
+//	mpUART_TX_CALLBACK=function;
+//	mUART_TX_CALLBACK_OBJECT=objref;
+//}
+
+/*static void CMikie_ComLynxRxData(int data)
+{
+	////TRACE_MIKIE1("ComLynxRxData() - Received %04x",data);
+	// Copy over the data
+	if(mUART_Rx_waiting<UART_MAX_RX_QUEUE)
+	{
+		// Trigger incoming receive IF none waiting otherwise
+		// we NEVER get to receive it!!!
+		if(!mUART_Rx_waiting) mUART_RX_COUNTDOWN=UART_RX_TIME_PERIOD;
+
+		// Receive the byte
+		mUART_Rx_input_queue[mUART_Rx_input_ptr]=data;
+		mUART_Rx_input_ptr=(++mUART_Rx_input_ptr)%UART_MAX_RX_QUEUE;
+		mUART_Rx_waiting++;
+		////TRACE_MIKIE2("ComLynxRxData() - input ptr=%02d waiting=%02d",mUART_Rx_input_ptr,mUART_Rx_waiting);
+	}
+	else
+	{
+		////TRACE_MIKIE0("ComLynxRxData() - UART RX Overun");
+	}
+}*/
+
+/*static void CMikie_ComLynxTxLoopback(int data)
+{
+	////TRACE_MIKIE1("ComLynxTxLoopback() - Received %04x",data);
+
+	if(mUART_Rx_waiting<UART_MAX_RX_QUEUE)
+	{
+		// Trigger incoming receive IF none waiting otherwise
+		// we NEVER get to receive it!!!
+		if(!mUART_Rx_waiting) mUART_RX_COUNTDOWN=UART_RX_TIME_PERIOD;
+
+		// Receive the byte - INSERT into front of queue
+		mUART_Rx_output_ptr=(--mUART_Rx_output_ptr)%UART_MAX_RX_QUEUE;
+		mUART_Rx_input_queue[mUART_Rx_output_ptr]=data;
+		mUART_Rx_waiting++;
+		////TRACE_MIKIE2("ComLynxTxLoopback() - input ptr=%02d waiting=%02d",mUART_Rx_input_ptr,mUART_Rx_waiting);
+	}
+	else
+	{
+		////TRACE_MIKIE0("ComLynxTxLoopback() - UART RX Overun");
+	}
+}*/
+
+/*
+static void CMikie_ComLynxCable(int status)
+{
+	mUART_CABLE_PRESENT=status;
+}*/
+
+

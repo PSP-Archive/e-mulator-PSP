@@ -1,0 +1,10 @@
+
+/////////////////////////////////////////////////////////////////////
+// Mapper 48
+STATIC void NES_mapper48_Reset();
+STATIC void NES_mapper48_MemoryWrite(u32 addr, u8 data);
+STATIC void NES_mapper48_HSync(u32 scanline);
+
+STATIC void NES_mapper48_Init();
+/////////////////////////////////////////////////////////////////////
+

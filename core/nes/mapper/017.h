@@ -1,0 +1,10 @@
+
+/////////////////////////////////////////////////////////////////////
+// Mapper 17
+STATIC void NES_mapper17_Reset();
+STATIC void NES_mapper17_MemoryWriteLow(u32 addr, u8 data);
+STATIC void NES_mapper17_HSync(u32 scanline);
+
+STATIC void NES_mapper17_Init();
+/////////////////////////////////////////////////////////////////////
+

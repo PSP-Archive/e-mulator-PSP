@@ -1,0 +1,10 @@
+
+/////////////////////////////////////////////////////////////////////
+// Mapper 245
+STATIC void NES_mapper245_Reset();
+STATIC void NES_mapper245_MemoryWrite(u32 addr, u8 data);
+STATIC void NES_mapper245_HSync(u32 scanline);
+
+STATIC void NES_mapper245_Init();
+/////////////////////////////////////////////////////////////////////
+

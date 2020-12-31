@@ -1,0 +1,10 @@
+
+/////////////////////////////////////////////////////////////////////
+// Mapper 68
+STATIC void NES_mapper68_Reset();
+STATIC void NES_mapper68_MemoryWrite(u32 addr, u8 data);
+STATIC void NES_mapper68_SyncMirror();
+
+STATIC void NES_mapper68_Init();
+/////////////////////////////////////////////////////////////////////
+

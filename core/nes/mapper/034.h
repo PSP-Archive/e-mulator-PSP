@@ -1,0 +1,10 @@
+
+/////////////////////////////////////////////////////////////////////
+// Mapper 34
+STATIC void NES_mapper34_Reset();
+STATIC void NES_mapper34_MemoryWriteSaveRAM(u32 addr, u8 data);
+STATIC void NES_mapper34_MemoryWrite(u32 addr, u8 data);
+
+STATIC void NES_mapper34_Init();
+/////////////////////////////////////////////////////////////////////
+
